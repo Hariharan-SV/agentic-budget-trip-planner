@@ -1,0 +1,279 @@
+{
+    "destination": "Gokarna",
+    "pois": [
+        {
+            "name": "Gokarna beach",
+            "cost": 300.0,
+            "latitude": 14.5192405,
+            "longitude": 74.3230039,
+            "place_id": "ChIJvUCTw_yDvjsRgagDIcOSpUs",
+            "rating": 4.5,
+            "user_ratings_total": 840,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "G89F+M6R, Gokarna, 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Paradise beach gokarna",
+            "cost": 300.0,
+            "latitude": 14.5180971,
+            "longitude": 74.33745979999999,
+            "place_id": "ChIJS4hq6mCDvjsRmhfM22FxJUY",
+            "rating": 4.6,
+            "user_ratings_total": 201,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "Paradise Beach Trail, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Gokarna Main Beach",
+            "cost": 300.0,
+            "latitude": 14.5437352,
+            "longitude": 74.3136288,
+            "place_id": "ChIJt-3IHNaDvjsRWRcuUMoTlZA",
+            "rating": 4.4,
+            "user_ratings_total": 34373,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "15, Belehittal Rd, Dandebagh, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Bijjur Middle beach Gokarna",
+            "cost": 300.0,
+            "latitude": 14.5565216,
+            "longitude": 74.30910949999999,
+            "place_id": "ChIJcQ2jGCaBvjsR9QNheEGTWEY",
+            "rating": 4.6,
+            "user_ratings_total": 77,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "Gokarna, Karnataka 581319, India",
+            "price_level": null
+        },
+        {
+            "name": "Om Beach Birdview Point",
+            "cost": 300.0,
+            "latitude": 14.5154607,
+            "longitude": 74.326414,
+            "place_id": "ChIJRVOAHReCvjsRGPQ-hhfQMxQ",
+            "rating": 4.6,
+            "user_ratings_total": 1042,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "Unnamed Road, 581326, Gokarna, Karnataka, India",
+            "price_level": null
+        },
+        {
+            "name": "Kudle Beach view point",
+            "cost": 300.0,
+            "latitude": 14.5306868,
+            "longitude": 74.3224755,
+            "place_id": "ChIJi7tpzLiDvjsRvoyA1l2qOq0",
+            "rating": 4.6,
+            "user_ratings_total": 407,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "G8JC+7XH, Kudle Beach Rd, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Gokarna view point",
+            "cost": 300.0,
+            "latitude": 14.5388807,
+            "longitude": 74.3109266,
+            "place_id": "ChIJZ23CHwCBvjsResGb4AjMw7w",
+            "rating": 4.8,
+            "user_ratings_total": 40,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "G8Q6+QWW, Kudle Rd, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Om Beach Lagoon Stream",
+            "cost": 300.0,
+            "latitude": 14.5197749,
+            "longitude": 74.3233198,
+            "place_id": "ChIJ-b6cABiCvjsRas6CaSNqB1I",
+            "rating": 4.5,
+            "user_ratings_total": 77,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "G89F+W84, Om Beach - Half Moon Beach - Paradise Beach Trail, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Manibhadra view point",
+            "cost": 300.0,
+            "latitude": 14.5419135,
+            "longitude": 74.31525409999999,
+            "place_id": "ChIJWfAgtWiDvjsRUD2lxR2zHO4",
+            "rating": 4.4,
+            "user_ratings_total": 5,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "G8R8+Q46, Dandebagh, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Steps to Kudle Beach",
+            "cost": 300.0,
+            "latitude": 14.5240085,
+            "longitude": 74.31438709999999,
+            "place_id": "ChIJYTlg3iCCvjsRE3DjrqVNq40",
+            "rating": 4.3,
+            "user_ratings_total": 80,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "G8F7+JQ2, Kudle Beach Rd, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Mirjan Fort",
+            "cost": 300.0,
+            "latitude": 14.4893403,
+            "longitude": 74.41756459999999,
+            "place_id": "ChIJyyxnh-UnvDsRyONlhTgFy6I",
+            "rating": 4.3,
+            "user_ratings_total": 13651,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "FCQ9+P2P, Mirjan Fort Road, talluk, Mirjan, Karnataka 581440, India",
+            "price_level": null
+        },
+        {
+            "name": "Tadri Lighthouse",
+            "cost": 300.0,
+            "latitude": 14.5146071,
+            "longitude": 74.3409281,
+            "place_id": "ChIJ71pLGmyCvjsRZmUHKEXgxC8",
+            "rating": 4.1,
+            "user_ratings_total": 175,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "G87R+R9V, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "Dubbansasi Beach",
+            "cost": 300.0,
+            "latitude": 14.5671673,
+            "longitude": 74.3041533,
+            "place_id": "ChIJe1Jjll-BvjsRVzO_RKFBIQU",
+            "rating": 3.9,
+            "user_ratings_total": 30,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "Dubbanshishi Road, Bhavikodla, Gokarna, Karnataka 581319, India",
+            "price_level": null
+        },
+        {
+            "name": "View point Gokarna",
+            "cost": 300.0,
+            "latitude": 14.5168145,
+            "longitude": 74.3287194,
+            "place_id": "ChIJ0Q4PXuiDvjsRNh7zVjt_APk",
+            "rating": 4.8,
+            "user_ratings_total": 5,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "G88H+R8, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        },
+        {
+            "name": "C Sunrise view point Gokarna",
+            "cost": 300.0,
+            "latitude": 14.5521808,
+            "longitude": 74.3275888,
+            "place_id": "ChIJear-IgCDvjsRmrCQC8dERg4",
+            "rating": 5.0,
+            "user_ratings_total": 5,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": null,
+            "description": "H82H+V2, Gokarna, Karnataka 581326, India",
+            "price_level": null
+        }
+    ],
+    "total_cost": 4500.0,
+    "currency": "INR",
+    "total_trip_cost": 5000.0
+}
