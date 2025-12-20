@@ -1,0 +1,106 @@
+Trip Planner — Architecture (Agentic)
+
+Version: 1.0
+Last updated: 2025-12-20
+
+## 1. Overview
+
+This document outlines the architecture for the AI-Powered Trip Planner, an **agentic system** designed to dynamically create travel itineraries that adhere to complex constraints.
+
+The application is centered around a **Planner Agent**. This agent uses a reasoning framework (ReAct) to interpret user goals, break them down into steps, and select the appropriate **Tool** for each step. Critically, the agent can **check the output of its actions against the user's constraints (like budget) and re-plan its approach if those constraints are not met.**
+
+## 2. Core Concepts
+
+*   **Planner Agent**: The "brain" of the system, powered by an LLM (gemini-2.5-flash). It coordinates the use of tools to construct a final plan that meets user-defined goals.
+*   **Tools**: Atomic functions that the agent can execute. They are wrappers around the application's services. Tools are designed to return clear status and data, including failures (e.g., `status: 'failure', reason: 'budget_exceeded'`).
+*   **Reason-Act (ReAct) Loop**: The agent operates in a cycle of **Thought -> Action -> Observation**. This loop is not just for planning, but also for **validation and correction**.
+    1.  **Thought**: The agent decides what to do next. (e.g., "I will attempt to schedule the selected POIs.")
+    2.  **Action**: The agent executes a tool. (e.g., Call `schedule_itinerary`.)
+    3.  **Observation**: The agent receives the result.
+        *   If the tool succeeds, the agent proceeds to the next logical step.
+        *   If the tool fails (e.g., budget is exceeded), the agent's next **Thought** is a corrective one. (e.g., "The plan was over budget. I will remove the most expensive POI and re-run the `schedule_itinerary` tool.") This initiates the **re-planning loop**.
+
+---
+
+## 3. Folder Structure & File Descriptions
+
+```
+.
+├── app/
+│   ├── agents/
+│   │   ├── planner_agent.py    # Defines the core agent, its LLM, and the ReAct execution loop. Contains the re-planning logic.
+│   │   └── tools.py            # Wraps services into tools. Tools are designed to return status objects.
+│   ├── api/
+│   ├── models/
+│   └── services/
+│       ├── scheduler_service.py # Logic for scheduling POIs. Returns a detailed status, including whether the budget was met.
+(other files as before)
+```
+
+---
+
+## 4. Core Flow: Agentic Re-planning Loop
+
+This diagram illustrates the critical "plan -> check -> re-plan" workflow.
+
+```mermaid
+graph TD
+    subgraph Agentic Core
+        A[User Request] --> B{Planner Agent};
+        B --> C[Thought: "I need to find POIs for Paris."];
+        C --> D[Action: Call `get_points_of_interest`];
+        D --> E[Observation: "Got 20 POIs."];
+        E --> F[Thought: "I will try to schedule these POIs."];
+        
+        subgraph "Planning Loop"
+            direction LR
+            F --> G[Action: Call `schedule_itinerary`];
+            G --> H{Check Observation};
+            H -- "Success (Budget Met)" --> I[Thought: "Plan is good. I will add descriptions."];
+            H -- "Failure (Budget Exceeded)" --> J[Thought: "Plan is over budget. I must re-plan."];
+            J --> K[Action: Modify POI list (e.g., remove most expensive)];
+            K --> G;
+        end
+    end
+    
+    I --> L[Action: Call `generate_creative_descriptions`];
+    L --> M[Observation: "Descriptions added."];
+    M --> N[Thought: "Final plan is complete."];
+    N --> O[Final Response];
+
+    style H fill:#ffcc00,stroke:#333
+    style J fill:#ff9999,stroke:#333
+    style K fill:#ff9999,stroke:#333
+```
+
+---
+
+## 5. High-Level Component Diagram
+
+The component relationships remain the same, but the logic within the **Planner Agent** is now more sophisticated, containing the re-planning loop.
+
+```mermaid
+graph TD
+    Client[Client Application] --> API{FastAPI Endpoint: /plan};
+    API --> PA[Planner Agent];
+    
+    subgraph "Toolbox"
+        PA -->|uses| POISTool[POI Tool];
+        PA -->|uses| SchedulerTool[Scheduler Tool];
+    end
+    
+    subgraph "Internal Services"
+        SchedulerTool -->|calls| SchedulerService[Scheduler Service];
+    end
+    
+    subgraph "External APIs"
+        SchedulerService --> GoogleMatrix[Google Distance Matrix API];
+    end
+
+    style PA fill:#f9f,stroke:#333,stroke-width:2px
+    note right of PA
+      The Planner Agent contains the
+      "plan -> check -> re-plan"
+      looping logic.
+    end
+```

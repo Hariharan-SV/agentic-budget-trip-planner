@@ -1,0 +1,17 @@
+# Environment
+.env
+venv/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+
+# IDEs
+.idea/
+.vscode/
+.idx/
+
+# API Keys
+*.json # This is a broad exclusion, refine if needed. For now, assuming API keys might be in JSON files.
