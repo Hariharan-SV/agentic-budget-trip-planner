@@ -3,7 +3,7 @@ from fastapi import FastAPI, HTTPException
 from app.models.trip import TripRequest, Trip # Import Trip model
 from app.agents.planner_agent import PlannerAgent
 from app.services.firebase_service import FirebaseService # Import FirebaseService
-from typing import Literal, Optional
+from typing import Literal, Optional, List
 from pydantic import BaseModel
 
 app = FastAPI()
@@ -13,6 +13,10 @@ firebase_service = FirebaseService() # Initialize FirebaseService
 class UserCreateRequest(BaseModel):
     username: str
     email: Optional[str] = None # Added optional email field
+
+class PlanFinalizeRequest(BaseModel):
+    selected_poi_place_ids: List[str]
+    generate_descriptions: bool = False
 
 @app.post("/users/{user_id}")
 def create_user(user_id: str, request: UserCreateRequest):
@@ -25,16 +29,29 @@ def create_user(user_id: str, request: UserCreateRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/plan")
-def plan_trip(trip_request: TripRequest, user_id: Optional[str] = None):
+@app.post("/plan/initiate")
+def plan_trip_initiate(trip_request: TripRequest, user_id: Optional[str] = None):
     try:
-        # Call the unified 'run' method which handles both initiation and finalization internally
-        result = planner_agent.run(trip_request, generate_descriptions=True, user_id=user_id) # Pass user_id
-        if result["status"] == "success":
-            # The 'run' method returns the final trip under the key "trip"
-            return result["trip"]
+        initiate_result = planner_agent.plan_trip_initiate(trip_request)
+        if initiate_result["status"] == "success":
+            return {"message": initiate_result["message"], "pois": initiate_result["pois"]}
         else:
-            raise HTTPException(status_code=400, detail=result["reason"])
+            raise HTTPException(status_code=400, detail=initiate_result["reason"])
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/plan/finalize")
+def plan_trip_finalize(request: PlanFinalizeRequest, user_id: Optional[str] = None):
+    try:
+        finalize_result = planner_agent.plan_trip_finalize(
+            selected_poi_place_ids=request.selected_poi_place_ids,
+            generate_descriptions=request.generate_descriptions,
+            user_id=user_id
+        )
+        if finalize_result["status"] == "success":
+            return finalize_result["trip"]
+        else:
+            raise HTTPException(status_code=400, detail=finalize_result["reason"])
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -57,7 +74,7 @@ def plan_default_trip(finalize_plan: Optional[bool] = True, user_id: Optional[st
             if result["status"] == "success":
                 return result["trip"]
             else:
-                raise HTTPException(status_code=400, detail=result["reason"])
+                raise HTTPException(status_code=400, detail=finalize_result["reason"])
         else:
             # Only initiate the trip plan, do not finalize
             initiate_result = planner_agent.plan_trip_initiate(default_trip_request)
