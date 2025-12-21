@@ -31,7 +31,7 @@ def get_points_of_interest(destination: str) -> Dict[str, Any]:
     A tool to get points of interest for a given destination using the Google Places API.
     This function now only fetches POIs and stores price_level, but does not compute costs.
     """
-    # Reverted: Use GEMINI_API_KEY for Google Places API as per user's clarification
+    # Use GEMINI_API_KEY for Google Places API as per user's clarification
     api_key = os.environ.get("GEMINI_API_KEY") 
     if not api_key:
         return {"status": "failure", "reason": "API key for Google Places not configured."}

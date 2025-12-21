@@ -1,0 +1,220 @@
+{
+    "message": "Trip plan initiated. Please select POIs to finalize.",
+    "pois": [
+        {
+            "name": "Bengaluru Palace",
+            "cost": 0.0,
+            "latitude": 13.0035068,
+            "longitude": 77.5890953,
+            "place_id": "ChIJN1ZKKUkWrjsRzxIVM363-LE",
+            "rating": 4.2,
+            "user_ratings_total": 97574,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHo2kxQwL8iVYvMo4xUJmN3YQGte_sraRO2JlE7fyk5eZWsgR98FGpKXN0gtVCGis-FjPxT5YMda_DaGkr0S92ABaM5CiJKc0c204pYSj56erqUoKEyNA3UqI22Q4RDREHvTDpoJ8YdaZEgR-DDDAlcBid1kBd9WPgM-NaFzpE7-6XitA0fRKnanTaZfkFIsHTEkWuhmVXOST9yNR06mYiXGwcI9DnLzWQgm25JIWMU0ZdfdpGd2b6YE53X7rZluLb9k8Z3lXKsY8B590J3IbvS2B4DalDdKQ1suKlBf8Itfb3_Qse7RZfKkn11u_QEmSOiu7wjS866F4T8jLXYd00LMJM0ZMzLHXUGUYhO2CzpzvgySu3lROA0BAYVu1-vXUPdJR3llC66-Uy7b3BBqadc32Wl34SI6MuIYgNLxbjFfqZiLrOFejJu0-izsLv8IcIryCenQ8LJwg3SCaeO5lG3asVSbTP1O_xyvQZ4I9v4dqwnE4Pzd1B4ei01hEjMVvxTsTxuPw9eIwXPBw66oaifDFm_CeQJNt3zE0KtDxXfg6Md8WnQUZ358i4lyvp4b0GDHTh-PF-4ewwIdNK_v2Cghcg6edQ",
+            "description": "Bengaluru, Karnataka, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN1ZKKUkWrjsRzxIVM363-LE"
+        },
+        {
+            "name": "Lalbagh Botanical Garden",
+            "cost": 0.0,
+            "latitude": 12.9494158,
+            "longitude": 77.58468049999999,
+            "place_id": "ChIJHdPykcEVrjsRIr4v35kLEY4",
+            "rating": 4.4,
+            "user_ratings_total": 172200,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHr94HTBf_3XwzNDZpPyADVBMOqSwWrRzpgpVhL4Y4Ej8bWtj-cO2gQK28YyrD96VFT7_h8QaqKH195IVtUzHi0p3MBXoHHUOZiCclDxHO5NFccTaKN5ajfAfDEVG454W88s2NStW34QzCGxerYsLIKRXYNi607gHSKMzmyQx6EGw-2b7jEeLBFCSxRklwKuPRKrkaNwVLIsinPUEEjZde36awDrpTg_BchlNs9sucEXaCPg1NpwK3K2AYY9xhw5m9ElRn7exR2Rr6KHYEtvdpqgc9z5g2LIjSN1JKCo9RcwYKbTiYhT-UMe8FDWyzc6QEpVGehLfXOKruy1NOOxPX0M0_ebuZT9gVS00U77IMJDuTWZsv5FH0fX8UFM67X4Lpwr7Yny4d9q9x-LjVhdCeR2jTQoobmGjifcviu_ZsAFNMKhsKeEATLKXs3WNzZUn0t5_Yb2SBZiBS-jeEyvSr4WSqX3f_r-xTmhwRxnJId_oacgs5AQNoAIfKzQ-JDTHrAXXwGTFCa0TX2RJvdpmjn04SvGFo0muIEUK8BneFUh3Xi1E_GNEUco0EvhqQpCPVf2MJlMWXjToBoQVnGUWjztATHB6g",
+            "description": "Mavalli, Bengaluru, Karnataka 560004, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJHdPykcEVrjsRIr4v35kLEY4"
+        },
+        {
+            "name": "ISKCON Bangalore",
+            "cost": 0.0,
+            "latitude": 13.0096643,
+            "longitude": 77.5511344,
+            "place_id": "ChIJBw42C-09rjsRs7KmQUqyf3o",
+            "rating": 4.6,
+            "user_ratings_total": 136260,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "hindu_temple",
+                "tourist_attraction",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrfN2scAAMwpR1-htgB1qUJoLCgK6N4YUsjkWai4kIL5FWcEjcYDEWb9rd32z9Xe32CyOn8INLhwyLjpzq9BYHy1s-Ej4YxFG2X0fq4gnL8mxqBf5J5gonC3eqB0QhrU031QSIvgEHPjqo9Gb3tRZXO-oNr3787jjFmqBDHU770PpuspyMrQOH3rJ3ga3PIL8hjn3JYJt7jH3RqyHelY5jCSvZhugBY1-y7k-KSaSZU_NgyxlMOLULOwZwghz0tHrYBpRphnjD-T38Dwpe-92E70teuAmjALAx1ZMZ1NaZWmgH46yvj7CBkTdbTdqQOEGZAqHhi0aVXUclCJlzjHGjS_lEO37E91UsiSZC_b31eY0qXLCn7BKnch0IsBoLzzGb1lbak3VNnk966Cw9tV3APWkXNW_ZqYdfqSx4pfNye5f9hz1KcFdqFx87aed6oVYSWme3v5Xtn_xz0_VFCPtwyqn2N6CRk1z2f-ZPVGBTpNeza_AmdCWg_4aI2AARAOR8IHavCyuNQbNuBo8ChRNpYQj46MFT89QBeqKbGCpexr7qD8plERnBklW5DWoa5f-df4s1BOF0t4g",
+            "description": "Hare Krishna Hill, Chord Rd, 1st R Block, Rajajinagar, Bengaluru, Karnataka 560010, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBw42C-09rjsRs7KmQUqyf3o"
+        },
+        {
+            "name": "Bugle Rock Park",
+            "cost": 0.0,
+            "latitude": 12.9427052,
+            "longitude": 77.5694287,
+            "place_id": "ChIJmwJpvowVrjsR0JVGQxxLHms",
+            "rating": 4.5,
+            "user_ratings_total": 25526,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqSXEwGWlkuhmTklnCTCjGbQRryF2Qlg_cf0HKF4xcnwKlB_5dye_p55ZZiYgtCN8pWeukTQJ62iIcrFkC7f0F_pomqd6VPBxHts-HFaByYFhBxNU69nvJdYmBAHD_yGeP1hIQP-Fs3gAOGKRFXHYek5i8o02euvD2178wNW1dCiYJ6mUCPrzRQHTgJyUTiERptbJUuvY2R31RAN4exqM9geW492kx1BdAfLEC-8zWKq5RloDa2VtQgPKmL-YUmAFwIFmvJ2FrZr-VyAPWHFHpQ2oV_3Y9fP-dDX4IKXDnz4m5xqB0FLCZRq3e7A6fmljx76A3wFvXPf7bM7Ag59KEFUyaOn94eTcAs_JHLmG_CweJv5tNxx1WMZyjA-L7WrjEZUKHGusH_NjiHbc2oIgiofwTR5utJKd5iDm8q3bLfyVOMhGyEqra6rwVJQlAkyDsPX1faNniZvd6ytiDLyLW8iuWB5FPcEwkKXCK0pYKtrVh4tE8oGfqAt-FdXBwrbD2los2hyQKfclR_Ih_PDuCTzSebSwbhN1GvFklVoDIvKBNIhpR_IIkhV0qrGe-Iik7Y7GQq",
+            "description": "WHV9+3QM, Bull Temple Rd, Basavanagudi, Bengaluru, Karnataka 560004, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmwJpvowVrjsR0JVGQxxLHms"
+        },
+        {
+            "name": "Turahalli Forest",
+            "cost": 0.0,
+            "latitude": 12.8831706,
+            "longitude": 77.52502969999999,
+            "place_id": "ChIJiwllD4U_rjsRdrv-TgtsBDM",
+            "rating": 4.3,
+            "user_ratings_total": 10144,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpT4bw009qPC3cCyHSRfckVLeaIsDTLv1BYz8PiV2j6_GcVpg47r6lkIBFBihlwi9SFS_klxnP525kde37tIrdHQr9cDqD2GL4tvJiCvrqC5sImzfGV9aldPvuDCwsSq_gBDGopErfiR7dCxLQ8FxNEVMubZwSq92s2zBP2pEu9U7VEVzAPlbjvcjAt8h5QXW0WAoi057P3hbLirwuNjyPh-cmsAFiHEIiqjH4zaAOtCj8hDoGnqPwGEtdxHrwd5MUmnIz6hV1PmuGIw4-FjrEg111x4O0KDG6byLTHxTo69-O09gFIujmE-h4eISUPDcilpIhGyoDrFDAjj_Ny_LpGV_JBI6H68OS2X3BuXyvqfz4tMeZJRnNh_nIH3m5YQKOoc2gv6vO7Xhsk-wT9k9QVkrva0fiNt22dPKIRrsvYpQPaayNaNxp79aybDTL0v4pksMGr0BhRuKO4g0rPLVYeJALwmLRKQkv4AxnsoZHpkozDR19i5f51jRfDHa17-JJVLhGbLm4HHRhMCbKjvj88M3Co5K2VTNbEKggW-x_4_qJOG0NjjPd6Bo-Xl5wunGlkGg",
+            "description": "100 Feet Rd, Thurahalli, Bengaluru, Karnataka 560109, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiwllD4U_rjsRdrv-TgtsBDM"
+        },
+        {
+            "name": "Huskur Lake",
+            "cost": 0.0,
+            "latitude": 12.855081,
+            "longitude": 77.6964663,
+            "place_id": "ChIJByQ7l3VtrjsRDFxp5QEj7KY",
+            "rating": 4.4,
+            "user_ratings_total": 513,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHo_f7lhVR5UYo289uefIva5E98l_m02I2kjCg9Oa2gp3NiEq65Cxh5T8-YxOkAjhvizRs0OciWgNMKpPzT0pklTTBdUa5PIoOFwYJpYnD25cscmZEUjWlA1XqMRe4iMwEsW1pkE5vMHILhwmEFtYQXsOB9yyOMPau2NTMTm4nd8TaY0ioYrNjRxsGB-_0QsTlMh5_fcuqN4BhDUJCA8FrqjuFLsoU6rYQoMegKkOq6iLcDLt_NDjUD-RVNhmbXCzvK2gFKolVZRBbXFRmb-0yWfsBJ-DSAA7HUkWUERoZlTvmwquRqPon29rv6Rm4FoNwiZiQLta7lrXMLxwdGofAO6UAIb8mzlk7aU7UnwpsD7Cl5O35lD-k2AqCy-EtXqiHd63K7jRiIgZmvnerga9TpDdBQtWiDGNVKH1OvY8d8yq3zNlFIE3PPbrpVGtTvRleD9GgdvR67i0mF0uLvOWT2OJ8AiiR0XomYmHmbx_Y5Te3NePXL55HI2-g7dikW2OnP_ddeLeH-sVuil-s36rfNTfvywep83qxuf4jO79dcboecEEsnYSYZVKy9TKO_c9q5aLA19jak_Qg",
+            "description": "VM4W+2HP, Lake, Chikkanagamangala, Bengaluru, Karnataka 560099, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJByQ7l3VtrjsRDFxp5QEj7KY"
+        },
+        {
+            "name": "Bannerghatta National Park",
+            "cost": 0.0,
+            "latitude": 12.7784415,
+            "longitude": 77.572028,
+            "place_id": "ChIJVfwJf6hrrjsR2dyjsgFBspY",
+            "rating": 4.4,
+            "user_ratings_total": 10792,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqcCPIrO5TIejSiLfujDvMyUzCg0qaOkTV_WVsU8SlL1hPzRlHiepUlo50xkXBekJY4JYWlUDoCo1yCXupP8C2QPDfH1tfoAARahMmHHa63ArI-q00PlOD3lBMIyT43TFUsgUv2wkWJyYlNYFGWWAQWiuat1sLvBfK3Af2RkZ85x7OQsiqXLoMic19udYNr6ugXEpwzpJVVlCLzPGl1WeHwPBVtHwAxF-DqapgAbDvnIqjdr70OuFTj8Go-ukmxouTIJDc50MtnGfTohMb9KDo54IW78rHfNpIoUEjzhtn9pTvDCGmOUtmuPDN5m0q8toq-sHuDuZEmHg1Cdc_WQJ6yo03QhgHYW3aDIm4ugR6WEuq717rUmZsAF3gYYrQ2vmz598f3tXBzLG-SMnBmjJUM7si9SbWP9EeK1eVW5_hRoM4Ukz0uH_nGYAl9uOcHXylM4ifmL6dR_LmVgKt1WzPjuqehWmk0JUi1y3nFuNk2oDhQsmIaIhf6vQHNmjPUk92IVMTZUxoQf4nroFdGJynoh1YNrMeJ-MTUuyCIoWy24G74DP8Ehcrv-pCqFsWjypw7hw",
+            "description": "National Park Rd, Bengaluru, Karnataka 560083, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVfwJf6hrrjsR2dyjsgFBspY"
+        },
+        {
+            "name": "Kempegowda Tower",
+            "cost": 0.0,
+            "latitude": 12.9677725,
+            "longitude": 77.588976,
+            "place_id": "ChIJr4xKknUWrjsRRuEaMMcIGH8",
+            "rating": 4.3,
+            "user_ratings_total": 411,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpq5nbFFMByHv3G1G0vGmjqsxI_18thDzKNq4EPWzqtDDjl40bfH_rwAkBO4ePaQy4aZlF8man3Rr01q0OH3KT6k3M-P3qKWB0hCTliDR3M_vLqkg_sIkC07tSdU4sC72k-ZPY2XlcCephWkMzJ657fZ3VvfEhAv1c7fQ89OBmv5ci8pvFWcvlQYIzKEeaK5bq0ReGVXSSz5x_4jJAkL64s81xCS5Ihq1G1tOmdU4xfEw1GgNa0WJmjzPX_EqgYq_2prckmn1P4VGggYZ2_7TXEwlAC_cIGfarlFxU4Ef3qR3FsQsdwuwbBkbWCpOG1zrQKX09jVsSnjpjSVy7pYYTIkD-E4O46llh9WYVjzEHngUaSfYxuDxIqi1u3SRAnGaHOWY1p2GXuGqJHpp_W33IRMxT74n6GvRYgK-B6Y2J521wF5xxK_bSpVt8DxJdmf3HlX8S0m1__rZ3MaihHPys85Cgpk5i2ERIbo-mqxkri2-_wdgBXGceonGWeFV06cpnqlgwsVu5tfzauEimrjx6LaMXbM_HWyHaNT1DsjDnYKNRyOSRbfNqoU9BKTLcl_i4b_Q",
+            "description": "Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560002, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJr4xKknUWrjsRRuEaMMcIGH8"
+        },
+        {
+            "name": "FORTUNE ADVENTURES",
+            "cost": 0.0,
+            "latitude": 12.9663125,
+            "longitude": 77.5036338,
+            "place_id": "ChIJCSAdy0s_rjsRaBwcIww5J6I",
+            "rating": 4.7,
+            "user_ratings_total": 21,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqAZlPwXMeaw5NjzCoozDHpWEE2YoDW7QnSoTdlpg1bs_Zqmr6iVokFq9w_XQ9EujQ23vqu5gqlbzqYzrPuiYIYzjSMsmJiOxQxsJB5NhFy4fd7TCgSUlT6nzVDQq9in4qkU_rj35CBo0l0hD5tmsELs6q9uTvM2gchmY8gfbN60-Jv8n1TQT2mPyJL5tm4vCk7zO0y62WMrpMrSx4Fs-XfhtvPzDC7y7Vq1Mlv_N2TcU8vNo3UjPu-KfzhGzHUCY8ExtpKoaCwOAWchhyduuOOfqFVPBUful5r4R8ZVu8cd0kfXt9SPK8sxsP4aPcMKC65N4o36PbefqNnpnCeZFiUMs2mVaCXuy84tqxAybO-4G5-_fFwhXaKHJIxyIol3pOctPLfg_HGvTmkWpC13V8JZXbqmttxW-A0RTAgLYmHkma1CtDyEDHyqsx22obSApejpljxbaZnuh80FyCoNz3wsRoSDvPP7wxsihlUl5rvJ0k94ww6Lu6d6oKXnHWI1y84TxuaDod5tFqs-yr6f42Q8yqeU5iaIOuISE9lh6SGs4LeDNcPXUX4OnUU3U_13DIhciyY",
+            "description": "M P M layout , # 48 ,2nd main, 1st Cross, Mallathahalli, Bengaluru, Karnataka 560056, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCSAdy0s_rjsRaBwcIww5J6I"
+        },
+        {
+            "name": "Hebbala View Point",
+            "cost": 0.0,
+            "latitude": 13.0381059,
+            "longitude": 77.5948128,
+            "place_id": "ChIJqxTrvXoXrjsR21QrLsEJrnM",
+            "rating": 4.4,
+            "user_ratings_total": 152,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpHKZy0Yb97Z4NnlNLqtxx5Hk6FmKG63rRCEoTS8Kmev49y-Wp61dk7-F-vitW_2CfBAudDV9dlnaYJdUpe-OKr7R2k-alReNGLAQeXsAqml9mi0WSIF7-bwjRMucyqkHZncq5O9CtjlrIddTmx4mSbU4GDDR8QH9QaAjhc-DkvQtftCZ6mjDbh4wgAtodBV90VCN3GhfZRakATaWELeKTH-C0kdwO7p1RessvGUjlFwEoUHuh5vRkQ6_XJyV6S-UoGrF8SGJ_PnufIOC8T8yKsVecrWbp0Hscsn6itlvi-XOGaqSK2GORSYjd95HDNlp_oVSpdFPTbq4ZTlDQFQIX2m5rzXbsaQVyjzp0ycr0JIk5eVT-0tFmZd5chZQtVjwKq2xkBjIBEJILfMvLAPpjxw03vtk-aiFJ_wm60wUZQVx72GNNtRmJ6MTlbuEBdGiWWY4bpc0F1K-m5YruvuB6d9pOmm-cBZoytdHAYpyrk3vxSwQl1PE0CP3lx9kqovPdDN00rOX2oAAuhag9HPtUsoDSyoMRMOfOo60L_AQMC-UK6eanxHk51wi_mylV2pMce0QzW",
+            "description": "Sonnappa Layout, Ayyappa Layout, Hebbal, Bengaluru, Karnataka 560024, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqxTrvXoXrjsR21QrLsEJrnM"
+        },
+        {
+            "name": "Manchanabele Dam",
+            "cost": 0.0,
+            "latitude": 12.8748817,
+            "longitude": 77.336068,
+            "place_id": "ChIJm_QS1bI3rjsRFDoL2LWn2fQ",
+            "rating": 4.1,
+            "user_ratings_total": 2605,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHoqMfZwLtkLm9iwfR3hGDQmLZciksaGoxdtkrhdiSIJyn6FRqBt1eQsiIXnlLd2xZYVDOxzAhKAZFWHWzMwSg2oh-NfiB07wh8YBpZAdediBzGZSrLStJCB8milCAblZDRj5N3vSlBzMkEAFUai8nnX4i9JKoc_eT3aS3rBMN-YVGJVFn7eswk_Sub-lqN2W5v1953cWEbU5_pqIEufjrAn3vME0vhjvvhZgIi1yhgg6jHaMyJsbY9EV-sDJmQLw2-xJvS_HTHd69oFl81Cu_VWGXqd9CMooFdHKZdbjIOKlmDayTtmJElgBedHTiD7ZGrmUUDhGup2evGtZ9bbcPmHMRIT_6hBlbUR3jruw_IwJ6WH0bknXsnQj3SF4CN5DdD7telCPzTERvhrIQ6zvmxt6MXZU0fDvhqKfN9NMtW-Pnpe2KDBLnd-MWC77kmk21xnW99MeyoJMpnypefDjwzswCkz8HpZqGxqaKslYxzRTDfmt2PwFqfU8f-pISRixYy3bGChsUvoP-HO4nTGde6Y-Opkcznc8P2eFjjCctF-1FHshEJhRw5YrHRMwm9ihBV4DyQH7T4emQ",
+            "description": "V8FP+XC4, SH 85, Bengaluru, Manchanabele, Karnataka 562128, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJm_QS1bI3rjsRFDoL2LWn2fQ"
+        }
+    ]
+}

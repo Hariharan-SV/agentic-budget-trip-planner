@@ -2,6 +2,7 @@
 import os
 import requests
 import json
+import re # Import the regex module
 from typing import List, Dict, Any, Optional
 import google.generativeai as genai
 from app.models.trip import PointOfInterest, DayPlan
@@ -9,8 +10,9 @@ from pydantic import ValidationError
 
 class SchedulerService:
     def __init__(self):
-        self.google_maps_api_key = os.environ.get("GEMINI_API_KEY")
+        self.google_maps_api_key = os.environ.get("GEMINI_API_KEY") # Use GEMINI_API_KEY for Google Maps APIs
         self.gemini_api_key = os.environ.get("GEMINI_API_KEY")
+        print(f"DEBUG: GOOGLE_MAPS_API_KEY value in SchedulerService: {self.google_maps_api_key}") # Debug print
         if not self.google_maps_api_key:
             print("WARNING: GOOGLE_MAPS_API_KEY not set. Distance Matrix API will not work.")
         if not self.gemini_api_key:
@@ -155,10 +157,15 @@ class SchedulerService:
             response = model.generate_content(prompt)
             # print(f"Gemini Raw Response: {response.text}")
 
-            # Clean the response to remove markdown formatting if present
-            cleaned_response_text = response.text.replace('```json', '').replace('```', '').strip()
-
-            day_plans_data = json.loads(cleaned_response_text)
+            # Use regex to extract the JSON part, handling cases where Gemini adds conversational text
+            match = re.search(r'```json\n([\s\S]*?)\n```', response.text)
+            if match:
+                json_string = match.group(1).strip()
+            else:
+                # Fallback if no markdown code block, try to parse the whole response
+                json_string = response.text.strip()
+            
+            day_plans_data = json.loads(json_string)
 
             # Validate the structure and safely parse
             if isinstance(day_plans_data, list) and all(isinstance(dp, dict) and "day_number" in dp and "points_of_interest" in dp for dp in day_plans_data):
@@ -166,9 +173,9 @@ class SchedulerService:
                 # This function now just returns the raw parsed data from Gemini
                 return {"status": "success", "day_plans_raw": day_plans_data}
             else:
-                return {"status": "failure", "reason": f"Gemini returned an invalid itinerary format: {response.text}"}
+                return {"status": "failure", "reason": f"Gemini returned an invalid itinerary format: {json_string}"}
         except json.JSONDecodeError as e:
-            return {"status": "failure", "reason": f"Failed to parse Gemini's itinerary response as JSON: {e}. Raw response: {response.text}"}
+            return {"status": "failure", "reason": f"Failed to parse Gemini's itinerary response as JSON: {e}. Raw response: {json_string}"}
         except Exception as e:
             return {"status": "failure", "reason": f"Error generating itinerary with Gemini: {e}"}
 

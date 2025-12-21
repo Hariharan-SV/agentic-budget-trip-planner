@@ -34,6 +34,7 @@ class PlannerAgent:
         self.available_pois: List[PointOfInterest] = [] # This should store PointOfInterest objects
         self.destination_coords: Dict[str, float] = {}
         self.firebase_service = FirebaseService() # Initialize FirebaseService
+        print(f"DEBUG: GEMINI_API_KEY value in PlannerAgent: {os.environ.get('GEMINI_API_KEY')}") # Debug print
 
     def _get_destination_coordinates(self, destination: str) -> Dict[str, float]:
         # TODO: Integrate a dedicated GeoCoding API (e.g., Google Geocoding API) here
@@ -137,7 +138,8 @@ class PlannerAgent:
                 return {"status": "failure", "reason": "Cannot create a plan within the given budget even after removing all POIs."}
 
             # Step 4: Schedule day-wise itinerary (expects List[PointOfInterest], returns List[DayPlan])
-            thought = f"Attempt {re_planning_attempts + 1}: Scheduling a {self.current_trip_request.days}-day itinerary for {self.current_trip_request.destination} with {len(costed_user_selected_pois)} selected POIs.\nTotal trip budget: {self.current_trip_request.total_trip_cost} {self.current_trip_request.currency}."
+            thought = f"""Attempt {re_planning_attempts + 1}: Scheduling a {self.current_trip_request.days}-day itinerary for {self.current_trip_request.destination} with {len(costed_user_selected_pois)} selected POIs.
+Total trip budget: {self.current_trip_request.total_trip_cost} {self.current_trip_request.currency}."""
             print(f"Thought: {thought}")
 
             # Ensure destination_coords are set, use a fallback if not explicitly defined
@@ -183,7 +185,8 @@ class PlannerAgent:
                 final_trip = current_trip_for_check # Budget is met, assign to final_trip
                 print(f"Observation: Itinerary successfully scheduled within budget. Total estimated cost: {final_trip.total_estimated_cost} {final_trip.currency}.")
             else:
-                thought = f"Observation: Current plan's estimated cost ({current_trip_for_check.total_estimated_cost} {current_trip_for_check.currency}) exceeds budget ({current_trip_for_check.budget} {current_trip_for_check.currency}). Attempting to re-plan by removing the most expensive POI.\nRemaining POIs: {len(costed_user_selected_pois)}."
+                thought = f"""Observation: Current plan's estimated cost ({current_trip_for_check.total_estimated_cost} {current_trip_for_check.currency}) exceeds budget ({current_trip_for_check.budget} {current_trip_for_check.currency}). Attempting to re-plan by removing the most expensive POI.
+Remaining POIs: {len(costed_user_selected_pois)}."""
                 print(f"Thought: {thought}")
                 
                 if len(costed_user_selected_pois) > 1:

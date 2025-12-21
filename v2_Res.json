@@ -1,0 +1,1026 @@
+{
+    "destination": "Bengaluru",
+    "duration": 3,
+    "number_of_people": 2,
+    "budget": 10000.0,
+    "currency": "INR",
+    "preferences": [
+        "friends"
+    ],
+    "trip_plan": [
+        {
+            "day_number": 1,
+            "points_of_interest": [
+                {
+                    "name": "Kempegowda Tower",
+                    "cost": 300.0,
+                    "latitude": 12.9677725,
+                    "longitude": 77.588976,
+                    "place_id": "ChIJr4xKknUWrjsRRuEaMMcIGH8",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Discover Kempegowda Tower, one of Bengaluru's four historic watchtowers built by city founder Kempegowda I. It marks the city's original boundaries, offering panoramic views and a glimpse into its past. A significant landmark for history enthusiasts and a popular spot for sunsets.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJr4xKknUWrjsRRuEaMMcIGH8"
+                },
+                {
+                    "name": "Namma Bengaluru Aquarium",
+                    "cost": 300.0,
+                    "latitude": 12.9765148,
+                    "longitude": 77.5985397,
+                    "place_id": "ChIJSXQE4HAWrjsRyeiku6FOYT4",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Dive into Namma Bengaluru Aquarium, a city classic offering a tranquil escape into vibrant underwater worlds. Discover diverse freshwater and marine species, from colorful fish to impressive creatures. It’s an engaging, educational journey through aquatic biodiversity, right in the heart of Bengaluru.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSXQE4HAWrjsRyeiku6FOYT4"
+                },
+                {
+                    "name": "Lalbagh Botanical Garden",
+                    "cost": 300.0,
+                    "latitude": 12.9494158,
+                    "longitude": 77.58468049999999,
+                    "place_id": "ChIJHdPykcEVrjsRIr4v35kLEY4",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Discover Lalbagh Botanical Garden, Bengaluru's iconic green lung. Founded by Hyder Ali, it boasts a magnificent glasshouse, diverse flora, and vibrant flower shows. A historical haven, it's perfect for nature lovers seeking a serene escape amidst rare plant collections.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJHdPykcEVrjsRIr4v35kLEY4"
+                },
+                {
+                    "name": "Tipu Sultan's Summer Palace",
+                    "cost": 300.0,
+                    "latitude": 12.9593513,
+                    "longitude": 77.5736415,
+                    "place_id": "ChIJAeY0tOQVrjsRdZ8hleP7aRo",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Step into Tipu Sultan's ornate Summer Palace, a stunning example of Indo-Islamic wooden architecture. This historical gem in Bengaluru was the \"Tiger of Mysore's\" cherished retreat, showcasing intricate frescoes and a powerful legacy. A captivating glimpse into royal history!",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJAeY0tOQVrjsRdZ8hleP7aRo"
+                },
+                {
+                    "name": "Bengaluru Palace",
+                    "cost": 300.0,
+                    "latitude": 13.0035068,
+                    "longitude": 77.5890953,
+                    "place_id": "ChIJN1ZKKUkWrjsRzxIVM363-LE",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Uncover Bengaluru's royal past at the enchanting Bengaluru Palace! This stunning Tudor and Scottish Gothic masterpiece, with its opulent interiors and rich history, offers a captivating escape from the city's modern pulse. A must-visit architectural gem contrasting old and new.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN1ZKKUkWrjsRzxIVM363-LE"
+                }
+            ],
+            "total_cost_for_day": 1500.0
+        },
+        {
+            "day_number": 2,
+            "points_of_interest": [
+                {
+                    "name": "Manchanabele Dam",
+                    "cost": 300.0,
+                    "latitude": 12.8748817,
+                    "longitude": 77.336068,
+                    "place_id": "ChIJm_QS1bI3rjsRFDoL2LWn2fQ",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Escape to Manchanabele Dam, a scenic reservoir offering tranquil beauty and refreshing views of the Arkavathy River. Perfect for a peaceful picnic or a quick break from Bengaluru, it's a popular spot for nature lovers and a serene getaway.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJm_QS1bI3rjsRFDoL2LWn2fQ"
+                },
+                {
+                    "name": "Turahalli Forest",
+                    "cost": 300.0,
+                    "latitude": 12.8831706,
+                    "longitude": 77.52502969999999,
+                    "place_id": "ChIJiwllD4U_rjsRdrv-TgtsBDM",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Turahalli Forest is Bengaluru's last standing natural forest, offering a vital green escape. Ideal for cyclists, joggers, and nature lovers, it boasts refreshing trails, peaceful solitude, and panoramic city views from its elevated spots – a true urban oasis.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiwllD4U_rjsRdrv-TgtsBDM"
+                },
+                {
+                    "name": "Shri Champakadhama Swamy Temple",
+                    "cost": 300.0,
+                    "latitude": 12.8134386,
+                    "longitude": 77.5762798,
+                    "place_id": "ChIJgSRgMgYVrjsReeUpNrGY8e0",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Step into tranquility at Bengaluru's Shri Champakadhama Swamy Temple. This ancient Vishnu shrine offers a captivating spiritual experience and architectural charm. A significant site for devotees and those seeking peace amidst history, it's a unique heritage gem worth exploring.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgSRgMgYVrjsReeUpNrGY8e0"
+                },
+                {
+                    "name": "Bannerghatta National Park",
+                    "cost": 300.0,
+                    "latitude": 12.7784415,
+                    "longitude": 77.572028,
+                    "place_id": "ChIJVfwJf6hrrjsR2dyjsgFBspY",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Escape Bengaluru's bustle at Bannerghatta National Park! This unique urban sanctuary offers thrilling safari experiences with lions, tigers, and bears, alongside India's first butterfly park. It's an incredible wildlife adventure just a stone's throw from the city.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVfwJf6hrrjsR2dyjsgFBspY"
+                }
+            ],
+            "total_cost_for_day": 1200.0
+        },
+        {
+            "day_number": 3,
+            "points_of_interest": [
+                {
+                    "name": "Hebbala View Point",
+                    "cost": 300.0,
+                    "latitude": 13.0381059,
+                    "longitude": 77.5948128,
+                    "place_id": "ChIJqxTrvXoXrjsR21QrLsEJrnM",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Hebbala View Point offers stunning panoramic views of Bengaluru's evolving skyline, especially captivating at sunset overlooking Hebbal Lake. It's a significant spot for photographers and anyone seeking a tranquil escape to see the city's vibrant sprawl from a unique elevated perspective.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqxTrvXoXrjsR21QrLsEJrnM"
+                },
+                {
+                    "name": "ISKCON Bangalore",
+                    "cost": 300.0,
+                    "latitude": 13.0096643,
+                    "longitude": 77.5511344,
+                    "place_id": "ChIJBw42C-09rjsRs7KmQUqyf3o",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Experience ISKCON Bangalore's stunning blend of modern architecture and spiritual serenity. This vibrant temple complex offers beautiful shrines, cultural programs, and delicious *prasadam*. It's a significant place for devotion, community, and finding peaceful respite amidst the city's hustle.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBw42C-09rjsRs7KmQUqyf3o"
+                },
+                {
+                    "name": "FORTUNE ADVENTURES",
+                    "cost": 300.0,
+                    "latitude": 12.9663125,
+                    "longitude": 77.5036338,
+                    "place_id": "ChIJCSAdy0s_rjsRaBwcIww5J6I",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Fortune Adventures is Bengaluru's thrilling urban escape! Conquer high ropes, ATV tracks, and exciting team challenges in an oasis of adventure. It's the perfect spot to unleash your adventurous spirit and create unforgettable memories, breaking away from city life.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCSAdy0s_rjsRaBwcIww5J6I"
+                },
+                {
+                    "name": "Huskur Lake",
+                    "cost": 300.0,
+                    "latitude": 12.855081,
+                    "longitude": 77.6964663,
+                    "place_id": "ChIJByQ7l3VtrjsRDFxp5QEj7KY",
+                    "rating": null,
+                    "user_ratings_total": null,
+                    "business_status": null,
+                    "types": null,
+                    "image_url": null,
+                    "description": "Huskur Lake in Bengaluru is a serene urban oasis, vital for its diverse birdlife. A peaceful escape for nature lovers and photographers, it offers tranquility amidst the city's hustle.",
+                    "price_level": null,
+                    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJByQ7l3VtrjsRDFxp5QEj7KY"
+                }
+            ],
+            "total_cost_for_day": 1200.0
+        }
+    ],
+    "total_estimated_cost": 3900.0,
+    "cost_per_person": 1950.0,
+    "suggested_stays": [
+        {
+            "name": "Vivanta Bengaluru, Residency Road",
+            "cost": 0.0,
+            "latitude": 12.9722428,
+            "longitude": 77.6086284,
+            "place_id": "ChIJs0LbooAWrjsReeRA5nHypkw",
+            "rating": 4.4,
+            "user_ratings_total": 6971,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHplr9-paDwgW9Fl9SZw5dHluxnjPe5_Ade2xzhhpSVx5gsiuzfVpjq09qhxizWGmGAexOKSTdBNr7lH3jzT_XXD_87tKZB3vfzcXDGdK2Yel8v85wpEF30plz1Jg7n9_J6yXSrM14vHTWay-tqKdibLt7dt3mrG782EV5RDYvHCz6q9tLIFym06kskDuCvVzSx7VeygjtQMkzvCY81Cw3seyIppZF6YsnWW6vatR9aGuRoTz_MH2knXHX-ZD3CsAgzIhZ6cbgKa0D0kAQSXR5JWqztS15i2RLBLU7oKHLx9rRUG_lY&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "66, Residency Rd, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs0LbooAWrjsReeRA5nHypkw"
+        },
+        {
+            "name": "Radisson Blu Hotel, Atria Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.980235,
+            "longitude": 77.586061,
+            "place_id": "ChIJx154PW0WrjsREG4GX2L3FuI",
+            "rating": 4.4,
+            "user_ratings_total": 12473,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrT_UvVBVH3R03hbO8davFhk0VZZ0fJPsvrVxsZX0tq2WKfeNGpwosMf0WCet3stNHxJHGQfht649DieMeoJcrYoTdW9tXlj1uVkmuUeKJFIWJSmQkKHBYgQzCaD2Efv83uwnqiM2S6nr4StWbhJFCoBy2DKZL6KlkjW2TC6bVsDNOT1uWqrj3v46qyXkPCWNgzr7zZiBhAva3-Vo524Z4DG6Dd6uKP8tyDSyxi5cLufGr2LE-yjfap8Z8lSxgj9W0cOL8pK3xZyK9Bu64trh4GG2-hDrlXLbIEasmOR4fSt_qfGbE&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "1, Palace Rd, Ambedkar Veedhi, Bengaluru, Karnataka 560001, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJx154PW0WrjsREG4GX2L3FuI"
+        },
+        {
+            "name": "THE Park Bangalore",
+            "cost": 0.0,
+            "latitude": 12.9739914,
+            "longitude": 77.61986379999999,
+            "place_id": "ChIJIU8zqJwWrjsRNfm0LUKrcS8",
+            "rating": 4.2,
+            "user_ratings_total": 10054,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHoCD-qqBjm66OpcMNOvZ_TbcvXwaMV-4ZmIW1HlrIwbTsbigBokrhyR0FXdWs5KUNdyHg1DEXJGNGVzm4bJhKiVdHULhvJQnn4hPZv-QoMSwVQtM9mstLp8EwKTVSNXOrPQFnUMtt74ZFDDw-3XFBffZxQRoT7vdqfj_aHfHd0tPCCFz9i74yVgu3RPEjlJ2qYi-jyZ-meUXwlICFj3rgWee7w_NhmPrujCmjnhhyCBDBMCjkoPRVGegV8h7tHn8GlhuvcAfUVYzWWDUwsesvEKplzukqJ-Y3HBB7F1Y9X8QGCfR-4&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "The Park, MG Road, 14/7, Bhaskaran Rd, Sivanchetti Gardens, Bengaluru, Karnataka 560042, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIU8zqJwWrjsRNfm0LUKrcS8"
+        },
+        {
+            "name": "JW Marriott Hotel Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.9723618,
+            "longitude": 77.5950513,
+            "place_id": "ChIJSWBhxHkWrjsRK6iI2w8G5yE",
+            "rating": 4.5,
+            "user_ratings_total": 22984,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHo8iipAELx24VKLhksYjxFb-etSIFs8RGicvo1LfA91HpdHJqG3QjgPcTMr9qEt_yNXr5xIrUfe1DtEEpL8-5dXVHZec6X7uNZTKwaZyV5HBymsyhGcn31YgBQTlbdGp42ITt11DB92tAcZBj4Ru3UoPUlqaf_-lB6fz1pMzBAU11wPnlxa6sWQt_zih4PkUvysxu-0NqdUBy9a89Yl-Y39WVNEOFSMSkk7nK6PcYVBn4ieJPD450uQkaHW5_kQ0Gge-xii7i5Ck3kBWGwuXOIhwQjayJen1aWYiiQBJ8N8UmwO_A0&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "24/1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSWBhxHkWrjsRK6iI2w8G5yE"
+        },
+        {
+            "name": "Holiday Inn Bengaluru Racecourse by IHG",
+            "cost": 0.0,
+            "latitude": 12.9799654,
+            "longitude": 77.57847850000002,
+            "place_id": "ChIJnZPrnREWrjsROEt759f8xI8",
+            "rating": 4.5,
+            "user_ratings_total": 13014,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqqm0r9M0NaQqJx5t5e1kGIdOpG0qc55O9P5zMi7fH4hIlgrvuAZ4yn4gC-BqxdReGEcqmGIl2mUlrWFUNObHrgpaA1ycuWU4QnJZ2dPx17tJ-ug0N1GlXWE1jxTVyzOda3zxkKvJx4Co1pSt911N6XihlLCf6Uj6QSYYNJumduCV7bPwXkFJgmOmbmJUNkSCVivup0-Saz4mh1nQvgqrK81xjZY1xG4-KAtmB0oWa_g8rmXXA7e2OlO1_c4iyo6cVfDDFI22lqa4gqylij-9zubAXwYB1SO-yEOUqFC73e_tTv8dE&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Ward No.94, 16/1, Seshadri Rd, Gandhi Nagar, Bengaluru, Karnataka 560009, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnZPrnREWrjsROEt759f8xI8"
+        },
+        {
+            "name": "The Oberoi, Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.9736048,
+            "longitude": 77.6184025,
+            "place_id": "ChIJGdo6XIMWrjsR27K3QpD1ZXA",
+            "rating": 4.7,
+            "user_ratings_total": 9839,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "cafe",
+                "spa",
+                "bar",
+                "restaurant",
+                "food",
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHr7-jxbc3VcVNuSWdFblRbRCg_7tMIufgvg1KINmLG9JrWEcrY6tGiXxTPHjj7atUyixFaia4xYp8VfaZWyOc2ncpJI7XlkT5lVVwDdnC4lfVV9XS-9oDiLcLt8czyBeg-yj5LkX4HM1I6E4wsPmi1-wcSaNi9A7S-gdre8YsEBFCRGAqrA7KaKuJUgnO45yp9LrGuUO95Ch_SQpc5W2R2OlKwA7qjPzFo2uMzpXFWMqiPuyxCRveRtKGlfmdFouGSke5ar0VwfJfgu1vN7ASvpyc7rP0Hqbk9kQGBz8I9obvw1I00&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "37-39, Mahatma Gandhi Rd, Yellappa Garden, Yellappa Chetty Layout, Sivanchetti Gardens, Bengaluru, Karnataka 560001, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJGdo6XIMWrjsR27K3QpD1ZXA"
+        },
+        {
+            "name": "Shangri-La Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.99187,
+            "longitude": 77.588293,
+            "place_id": "ChIJA4jxFg0WrjsR5sfp5nDG6ZM",
+            "rating": 4.6,
+            "user_ratings_total": 23656,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpMfYDTQV2KUbBmXggY5gpjt-hIqYf7MqF7ZZZHXNrXNTgfcU4XeGYLKMVw-qb7jE1pzdR2O7BJdPzZsMsEGtObHCt3IRDJvYsJLUr8eEi7L6wh7rWBRutCajjY8a74EDxjqsxlSKPYgysn-2KyafezZOs0NregLvRlXktwti4lyR2l5jm5tHpJ5Y5M7KYlxOt8xN_FbmD6kwRitBIXzCD-jITEaVn6QOyQ6usMcfW5n_6U0lSgokxLhSqJ1-B-pSIqgRKEUcZbTx_1urXg0mG2pe3tz8VdgVg_nDeqy01RT1O8ES0&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "No. 56, 6B, Palace Rd, Abshot Layout, Vasanth Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA4jxFg0WrjsR5sfp5nDG6ZM"
+        },
+        {
+            "name": "The LaLiT Ashok Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.9922264,
+            "longitude": 77.5825643,
+            "place_id": "ChIJiRcbIzQXrjsRMdaSZoQkW-Y",
+            "rating": 4.3,
+            "user_ratings_total": 26571,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrRrM3IXcjXQwGVwPNorIvsq_fyLZ4x5VdW1-nWZK-CtP12MdZ6KRW91jMJc76ViT7DOcASM2sm3o6VfI7R6IU0xAyZHMgbKyHwCC--vqBAtJ7BvnUrbAalJA2eXXkiGiLYNaJi7a9osQ4Xxg-AZwqlXkY2o8U-LuDaOh-AVeTXcvY5bmc_C8IUyIQsKaG0Gf6NN9WkoXPrBhUsZgh8g0ur1ApxIjwiGz_LUz9Q0flEofZ5G_2yvFz4-xDL8j6M4dCG-JG29rief6UUgzTllonxSsqiJbbEmy2aeaK332YHwoVFP-A1CXJorsvnKRjITTeML2FV51ykcAYDvi3oae_8xbWSoT3o38Bt8Syxv9CfpCA8hcafwzatxxsmN8DNTUFvSRMSJNne_O9hOdIiR7cWC7IJ014cgMif8ognkBIzH5Xx-hR1aqAsrI85f32hoWKpP45guRxnHfeX4vPDBTyR5mWx7d1El44DYxYqUEJ4WduOvVp-5DWm4NCQDZZmcKqMXP3lq1moTPTKajawDXDkhE66FqBzhHDkFFwZYPMOgX2xVlXE_Ix9_P7gUgmJFOhdZ4n6i9FRFtzxmX_Dl0YTYu70_g&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Kumarakrupa Rd, High Grounds, Seshadripuram, Bengaluru, Karnataka 560001, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiRcbIzQXrjsRMdaSZoQkW-Y"
+        },
+        {
+            "name": "Hotel Shravanya Lodge",
+            "cost": 0.0,
+            "latitude": 12.8790515,
+            "longitude": 77.5671897,
+            "place_id": "ChIJH654QnAVrjsRgSCUXC4djvY",
+            "rating": 4.4,
+            "user_ratings_total": 17,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpb0p_K6cvkTdyCMXkzF9XcruVFyQn9c2QbRJ7j_7ZT-feb29YOUbXOZ6ojFQSPs7Vl6aXUupkp-nJknG7qA74NDCmF5KWS5quKePIFI4YCYAz9wZnbMlCEXfhVTmoHZd5BokTHNdjM6O5bhF8IJW5flxrbGRcmnLon3xEtB6ZQhRBkMb3NpIl9BUZUN2SRMCQ0gh8w6HiC50NdDAtD38Cj0GVwXs1zgzsG1GB-BYxYVcROTX3LyjozgkG0dS096QzaZdopGlc_QRTLOGiPC9RCqOqoOOyjWCmJ6euZmYKmuR4YQoc&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "hari nagar cross, 22/1, Anjanapura Main Rd, PNB Layout, Konanakunte, Bengaluru, Karnataka 560108, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJH654QnAVrjsRgSCUXC4djvY"
+        },
+        {
+            "name": "Octave Hotel - Double Rd",
+            "cost": 0.0,
+            "latitude": 12.9596715,
+            "longitude": 77.5933616,
+            "place_id": "ChIJVRExstsVrjsRdQeNtoiGaFE",
+            "rating": 4.2,
+            "user_ratings_total": 3060,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqAgWRA1iqdV581SHMRUq19WklDJkkMFUX7I_dfT590sRgiVwKOkkFq_1Y0hVFyIXPnKc8N9XlANmaghZz0GRhbPkvnsWVfHhUAMN0w5_J_396R0YvCvmq9am_AYdknY10fugU84kjrm7FE-RlF0RO9j16yW97JZBvM63FwkCZNzVmqOQe9jb7AgboV3PtrXR8pbKorQQ5PdJnb-huwOhrlPtE6j551XaSj38zeHXtzH8QS7tv0kBw347bxOTi-cywLxGxsvZHSYG0rkz5ttzVN55_ovcqHBCbFNwyH8RneI3woMvY&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "114, Kengal Hanumanthaiah Rd, opp. Canara Bank, Raja Ram Mohanroy Extension, Shanti Nagar, Bengaluru, Karnataka 560027, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVRExstsVrjsRdQeNtoiGaFE"
+        },
+        {
+            "name": "Hotel Pallavi Grand",
+            "cost": 0.0,
+            "latitude": 12.8725538,
+            "longitude": 77.6459203,
+            "place_id": "ChIJc75aOeFrrjsRNMuGaTel7Zo",
+            "rating": 4.6,
+            "user_ratings_total": 121,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpuW2-9NUxOBMP2CTFAuViDbG6ElCbbZFGgfEM9eBRJBy1c5qk3exrWgsLeUGyLFtw3SdEsxBVgmEjZfhXdneS8eSz2W84H9OuBwLx5FFsaZKu-WIDGm8eOmkyBt3FgDF9CLZpPPbu9GE-WXirhLXCVeaUZgPlyZ_HWK3qA7QEM8B29RtaTeTqhevQkUrhh95AsZQTuxZ0QOvwTP2nzPT8lLz6952WDZCWTc1if8_EzoM9azh9kXfOw9CizNK6_vH-gI_B1_DCbf8KXrlDLbthS39Hse7hKs6P-b0_84oMWlU8-TMPMDQWKbawlBA0MoG153wzevQOCgsywbZjg4Hh2OuG8dmqgNf7VT9hhvqWif7YLZZPWJoNvAMNSVVT3yuK9e8BowVdqsuQeUlRdn1Q_-oL_23uj9GFTkiOEPTCnHw7s81xzT_j8JEG7w_bLUApBBwPdR5hdUIaNsj_lUzP6KM3MOkiFXPQDaehYM15HsrIsDdoTN0tWvTa7V6TAsaVhoWE5YDBsUf_BZ85KPrhVcJy22XckBiJ-ZhMBpUVx3nx5GIkAj1rHyXuGQVEIruziffDC&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "9-k no 902/121/3, shree raj enclave, Manipal County Rd, Aishwarya Crystal Layout, Singasandra, Bengaluru, Karnataka 560114, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc75aOeFrrjsRNMuGaTel7Zo"
+        },
+        {
+            "name": "Jayamahal Palace Hotel",
+            "cost": 0.0,
+            "latitude": 12.9972,
+            "longitude": 77.5979361,
+            "place_id": "ChIJfxdkeWUWrjsRvtJ3g5SE248",
+            "rating": 4.2,
+            "user_ratings_total": 8196,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpS7rtbn3X3BkxvUk4bl91pVNEWi5RPvEg3LqXV6S7JTK_9aaA1YbNTotgN6VmMWxwEXEk3jGWVEcV3Tf3r-H2bRAoWSNeEsxtXV4t7rcnvPQcndAzLj3hTfi_-URyf5KXJTh_6OAqfa_YuGtofmsafoyiI_giWp86uObtsyf8EwvEsABCKYsyX7FwsvzTqMWc5AujzT5ZRn57bY5ePePfYD5xLxBEe81vHmPgH-lS2Zkg8-jQOre9_-BDNeVqP9e41tJhhomQzcOPSSe7H9qEgA_kJR_aXCRymKl6OJtwxgnx46H8&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "1, Jayamahal Main Rd, near Cantonment Railway Station Road, Nandi Durga Road Extension, Jayamahal, Bengaluru, Karnataka 560046, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJfxdkeWUWrjsRvtJ3g5SE248"
+        },
+        {
+            "name": "Hilton Garden Inn Bengaluru Whitefield",
+            "cost": 0.0,
+            "latitude": 12.9936168,
+            "longitude": 77.7324902,
+            "place_id": "ChIJWQFqHAARrjsRxGQGbwvHJAs",
+            "rating": 4.9,
+            "user_ratings_total": 53,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqlh9cEOyBg7LRscfNUU5oDpaUfYAr7_YyFXcpWqjlTMRx_nP5fv-4WcGLyS_fNuEOUNpT4QWETXs6MxhQWwzcejw_lfZjG6fhmIwNCWmJ-SSvPq5jefNkc6R262pQEusP2mjpR0qk7Y_b7-aqBESfCLxFRJricyKW4NMZbRV0-Tkpf2KRO0m5LqMB96-JjVguFfSvmPLWbWRiuVnaM7c103q5RDlLrUDSHEzVcrV5z46FGH5w8KNHItmdvZraMb6s8tT3aurWm96ZsN2bETRZU0x9lJWdSv0jY1YzdjcA8yOXz4_0&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Plot No 13, Sadaramangala Rd, Thigalarapalya, Krishnarajapuram, Bengaluru, Karnataka 560048, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWQFqHAARrjsRxGQGbwvHJAs"
+        },
+        {
+            "name": "The Chancery Pavilion",
+            "cost": 0.0,
+            "latitude": 12.9660768,
+            "longitude": 77.59854779999999,
+            "place_id": "ChIJ6_I8ttcVrjsRGyyh7liae48",
+            "rating": 4.1,
+            "user_ratings_total": 18902,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrTjHYemdMxecITujdMgtNTo3u1Mca5Zwgwrjc9eNWyZqMlWvHwEalg1p1Ig1Vw_gSTtYBlDQTjGgbmUW9ZlVojKlIVbVxZ1SG7TFPGW2K_n3FPFhA-ljUaEoMe1c0d_Uv9HDPWcjhHG2c55O02P_Fp08ESkIVDhYyHEQ3UkCF3jooTzXLoVjOKs9CkSovIFcI-RBumaIjXweh0YAX5O08I1QoVg14Ptu9mLfJw6I_rnbdlkaoLREriLOdtn8Ple6QvzRtqN8atvNYwgGM0NX7Li6prV0KnkVS1OheBk6P6fzEa_jSJqThak6ANpTMiGktyX6G7ovxNq0UFDmWMu2YNGJp8DPYACnwy8kpYe9UP0DpJXVfnXki-P-RME_PCculm1THddPiNgx8BUOLBHRHJnmqQbHsateWMrMRXd2PnEeP5vQyeSkAl3hA337ddxKTcWXFg851CNJXRZXAISyS6VisDH_egtlv0MiFeznjtzYZCr0yppzYAb8laKZrAAhDC-Kl7696DtsD86xI_2rHKrqLikDw8NnX6ZssCrtLBbX9qKtpg-8FAOelTY6cWSuK4PcvvWx5ySA&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "135, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ6_I8ttcVrjsRGyyh7liae48"
+        },
+        {
+            "name": "Hotel City Meridian",
+            "cost": 0.0,
+            "latitude": 12.9703317,
+            "longitude": 77.57388859999999,
+            "place_id": "ChIJC08zoQgWrjsRQw0Ge0e9ipA",
+            "rating": 4.6,
+            "user_ratings_total": 1462,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHquHrBBAVDr4XUsVeHpUBgh5SGiKdugB_fR2p2nr22E20ciRjLEanO9K4bkKa53uphqhYTjrTXg8zs3IX97dNymos_hSSGwKuhFx01jCD5NFvLWSbwYYRKB6KzgaAPTktBoIM_wuDCV-YJJtI2U2HmiqlAQX59hbaU4SWnSTNJAqRGhn_zaRh2RlGfMATw52z5Qgxfiuu8d5N6Vs0HWaWzBbhzbbYY4mncnbiNntzBnOR_s6TG_zJrzVmmTaPEGio1IdBjg3b6UZ6291lhWxwWGc5nAuF_FKA4TyVLw2s8MnMz1vEg&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "The City Meridian Hotel No.21 and 23/1 P.S. Lane, KV Temple Street Cross, behind SSK Sangha, Cross, Bengaluru, 560053, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC08zoQgWrjsRQw0Ge0e9ipA"
+        },
+        {
+            "name": "Hotel Anand Regency",
+            "cost": 0.0,
+            "latitude": 12.9769402,
+            "longitude": 77.57638399999999,
+            "place_id": "ChIJVVVVhVkYrjsRyCdjDkX2y3U",
+            "rating": 3.8,
+            "user_ratings_total": 936,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrTu8Ufm_Nr9IEoAF6YCWvtztndHXu0gxfVlrs5OoXvz8s067tzJSssQsnWkQcGSU7x28JMMQkPco-LCmgPx7G3qh4wfkWfzGbxB5kdtcwN-FmN45eZPgqJntK-QBNPcyqkfX0SF-zFFaoOFh7wSy4cd46bIkwtZZaZ55o90j0pqii7_YYEPUNKcUKgVW5zr78vOfncM-myheQnYuxpXwwDEsNxXEkUgLKk0WYAY5o3-O2hjE8qciGB9f-J1xBQgrkU_45Kgh-drvfSCm9zeq6kcr0kpgwtR53hTUTSwX7dtOi8qKk&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "10, S.D. Plaza, 2nd Cross, 6th Main Road, Next to Gubbi Veeranna Ranga Mandira, Gandhi Nagar, Bengaluru, Karnataka 560009, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJVVVVhVkYrjsRyCdjDkX2y3U"
+        },
+        {
+            "name": "Olive Hotel Magrath by Embassy Group",
+            "cost": 0.0,
+            "latitude": 12.9703012,
+            "longitude": 77.6087557,
+            "place_id": "ChIJwZbS8PMXrjsRGuAo8sBqk_I",
+            "rating": 4.3,
+            "user_ratings_total": 1012,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHp9gD91NlQwTLO6OVEA-NqTUiTG4AZ4u3azT8CU3n6wpknEpJMiAyJt-LLMS6weh2AVC6e6l0nD6qzKs4UiH5hEDXnD4242Bjw80hWGWO2a6C2mxYT3i29v0_MdbA4ff_zNeb4UhZbkQMANQGB3o8R3hs-EZD1cW5geC96QciTkmDxC1EdaLTZLDFEYuoIbN7WwBIzW3H4-fOTyHwqouehJZDZc5YTlrNWvSeYGXTf9mm6qgIwPI9cMEGOZ6W8O6aY3xHjV1aeCVxD73cF0zJ82phf7u5uzXFpPojB0qRQf2OvvkOM&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "25, Magrath Rd, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwZbS8PMXrjsRGuAo8sBqk_I"
+        },
+        {
+            "name": "The Pride Hotel Bangalore",
+            "cost": 0.0,
+            "latitude": 12.9647862,
+            "longitude": 77.5998426,
+            "place_id": "ChIJc7idFdUVrjsRhfSovBgFLeg",
+            "rating": 4.1,
+            "user_ratings_total": 6537,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHp9CrMCG3g12CvOj7dQ1GLyhTWEyWbOIyD-_0AvPCeh1sx5WmGH2aMGBzCysJrHGyc2GaymHF2K5hNfpYA_0kGAKwMQDPgqqrFk4vywxgDT7JVn1-blT4_CeK2V-GIGyED6Zf6T3QZQJ_tT3bYkji9kUQRuplVbkBUTJGHy-F4ys9Dy4zfqY911q11rMi3VfFkE3IgNjyTdawKRlcypq0KW5DRJC1kXqsJEF2dBhP9WwGW7XYLC6-0SmUEcWoj5c9jXaBOOn_07dsIjhu6g9FfXmqVFYdRuFa4b1gYFgi4Ph4DgDOR72afeMXonlo7hfZLeNRvEdqrSo0ttk4Q3s2HDeNwtx1Qse8YedALuVnmLaxwk0HJBEX4nImJr-pYl90SnQtqlZbM2mfqhL8pVUutBP8UYCHBxhUvDk7TTY8Iv4SeN2cD3Eueq0E-vTJtqWpdAithZBSJRUeKeJ2ZLUrEZzvpunCAozaGdKqwBxXucSj6zczQfp0L6is7jHJxlD19QJs9-JOhIYSLDKj3Sfd1id_pvi9N3b8VF-kjv-UePgypw7T4B3DCciVHE9oJA0aDU9ksY&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "93, Richmond Rd, Langford Gardens, Bengaluru, Karnataka 560025, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc7idFdUVrjsRhfSovBgFLeg"
+        },
+        {
+            "name": "Goldfinch Hotel Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.9853769,
+            "longitude": 77.5794755,
+            "place_id": "ChIJp57-PhQWrjsRr4Ya5WZRjb8",
+            "rating": 4.1,
+            "user_ratings_total": 12740,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqQVEoVg6ImaDLT0AmdrEhcbKic8CB5N68Gt_f3zm8tq6p83uQpFCGKYIYPb2z6lagW1JzawLb9QCJro39BFsAjkWGMQ7Enr-cZb6mN5_7VjE5xr3aOhjdswESvFKmAs6PIoYU72r7ZN8ZaV3zXyzYOaL9aqoQzpadzO0TVd3VLOjb5HAgLFzD0k_ONbc-xpWkNFaZSWnBzt7k9ra7HHkrMwTG9J34CDdY0vv-_PTwcB_zLmR5uFBmw7WzP5-3Hip6Pyx4gvdsgREEymTVd06pfaxPaZ63SpbPgf4lGqCU3Mmel3rQ&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Crescent Rd, off Race Course Road, High Grounds, Gandhi Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJp57-PhQWrjsRr4Ya5WZRjb8"
+        },
+        {
+            "name": "Capital O SLN Residency",
+            "cost": 0.0,
+            "latitude": 13.0831678,
+            "longitude": 77.5948563,
+            "place_id": "ChIJQ_UyV0oZrjsRcPsQwr0QG-Q",
+            "rating": 3.4,
+            "user_ratings_total": 253,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrH8CLFnpj7E-3G0QQbLG6Haf4XKu1YgxlS21BfNHkP73SCotRiKbPWxbL53r9Pj9BYjeNxcUDEEiNjGHexFuR5c6EpGjZUI6LXTbEeuHQGjecftPK0z5yUp1Q1EdoiOPMco9l7v1rJt63KzSeEea6FTxPWA26-BS6gfwK9uInlySSXX1zYmLPcwHz3sUr2GMAAeklpqJfjVATGxDcU8wbocPZAtzOnDwnArDnAAOA_5BRNa1Po_DqY9r425mzWWW9j5bvy9TUJwb9r0qkHnODzL9rdtTyMn8o9Iq1Gs3RemHNKums&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "4337, Village, Jakkur Plantation, Jakkuru, Bengaluru, Karnataka 560064, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQ_UyV0oZrjsRcPsQwr0QG-Q"
+        }
+    ],
+    "suggested_restaurants": [
+        {
+            "name": "Just BLR",
+            "cost": 0.0,
+            "latitude": 12.9732755,
+            "longitude": 77.6073169,
+            "place_id": "ChIJOT7dpH8XrjsRmhbquGl7xz0",
+            "rating": 4.7,
+            "user_ratings_total": 24191,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqy60cyOSc3LledqMX-frlcREAaoLjHdxKAx6r8AED78KYAjGlAWjfhXMVc8ZdLDjXU2eUyldbiVkehGSsbpiBx-bPPo9cPq2yzNO9EMIWrmPsj07ho3qA3B9WIwv6tOKfOWVx1Dffx9LjS9hTP6fj4qMR2qoDcwWYchVZB3yEx-dfgVCF3DpKspOXsm8N3ffUWovX7jxBVfgEm8fbF3YhmdSr6WXNKfJQ6atufcu401QRAJMxMDUKwmzP_5HaTHoy_sTPvInstFywC3UqyB6EEb76pb3iwFS--TbzwBa0ZP5fzM5WiN4ULwo5Nwkv-jQI2iWMqrkNEW8qQ2Uf8xFjA8pFCHPkF94SovScAlWnQ7dguYwBSUrXVhT7f23LKfKSSzt_5GvWJxkjsMu54ZcypDZ739P5pDkqvmnm7kFV6gBstFoulgkH8MqUi4AWNZyu_i0elR2KF9NyrM_xu2qBAeKHq9Ixy3XWnYNPi0Y7AnWN6AkF1CuZRF-b1yB-qPIWCzaIqfURgQ4xT9pIHozxSJ0uZHMjvVXEmKRbV59hxsuyfD4glLEiUQtJwMBQ9WBorFg&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Deena Complex, Brigade Rd, opp. MC Donald, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+            "price_level": 2,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOT7dpH8XrjsRmhbquGl7xz0"
+        },
+        {
+            "name": "Spice Terrace",
+            "cost": 0.0,
+            "latitude": 12.9721442,
+            "longitude": 77.594923,
+            "place_id": "ChIJc_4WSHcWrjsR7wdB6_Dms58",
+            "rating": 4.3,
+            "user_ratings_total": 2135,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "night_club",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHq9VG96IsyLeK1B7OJnQ2sq2PopukP0IoP0yr80BUSgJnvA-F3Vxx7Pqkf396IDQImLRaKnXZxfZDsgYwStsOT4xCuxInGhCrdOYx08XmPpbmr0bhWsjU_zmUVtoZ1y3a8IMZaQyGzIuy16_ZbuOoecKhOdGfvhBSpemMVlZM7h_x3iPXW3ngFnHEznU2iQvGzVzZdcAmH2hcxNR2NeSZ99Ee9gl55i6s8E4JkGuSdGRsxUxE7xZM9kzQGrAbeXe3yjcC2nl_O6jQxnVWMwouguAOSaWvN5Y3wdHqEANUAmoLKIADQ&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "24, JW Marriott Bengaluru, 1, Vittal Mallya Rd, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": 4,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc_4WSHcWrjsR7wdB6_Dms58"
+        },
+        {
+            "name": "Gufha Restaurant, Kumarapark",
+            "cost": 0.0,
+            "latitude": 12.9962568,
+            "longitude": 77.5838773,
+            "place_id": "ChIJA0AIbscXrjsRKUg1mKrDU_s",
+            "rating": 4.7,
+            "user_ratings_total": 3670,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqMM2X0RmpadtHuc545oYWbihi66iekyFcUdxALS6mSn3Xxgf_2Oc3KtjScmWHOk6fPbTRdOCv3zXs931ILKl-LlMSSCeyqiRbeC_E9j6eBPmZrf579r9OGNOFob5O_HFjeUqEDT3Q7-SajYnEQWeLcrGFplcoLHrTppHNnN-yc3uuaRkU0GQrrom3tm0omd1jZo2cY-YVC81HT-y3br4rAX5BDp3HfMyHKSmREhWvVqiVsDMcDtVMRXhRcoskvtiuR1wHYu6LWu2Ura-Y7gf-5yqMqZOgf90E9vYeOPRu-N36dF1LomJZ5Egd0XHU4GpkVM37oR3Ucvcj5RJK_KLxeQgiRVnIYEelCN3CPD1mJEzDxv2i0yk866psj42XgwujKRsYS_-VLmu1cKAne10WAJqEhHyO_qVpXUhK3OvN3AGgLjHSxpPKWag9x6Cr_KAeJ8uyCBxZfsPGxBFuUA5udSGP9jGNC5MXo_0D_bAKZrsX4lYV0rGDPBIweVPa3HqcB83kYm1j9gMDEcX20T1X8IJdsFIIi7hHXcxl92r-ZeYrgj_QtYAUedhh4dG1m5UpiDCDmwDh66w&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "101, Railway Parallel Rd, Kumarapark West, Seshadripuram, Bengaluru, Karnataka 560020, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA0AIbscXrjsRKUg1mKrDU_s"
+        },
+        {
+            "name": "LUPA",
+            "cost": 0.0,
+            "latitude": 12.975749,
+            "longitude": 77.604619,
+            "place_id": "ChIJwWzHW5cXrjsRSUYk6pvrsjU",
+            "rating": 4.3,
+            "user_ratings_total": 1203,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHoNTOSJfkx6Gn6tOnmRDxQC1tWXRx7igAB8UbNK0kAcVW0--wZqYW5zCIqRHwyM6dBJp9_jmRSvN_Gy4tP1GAvO0CxTglTQ1KSXSffY5-oMkPXQhhSxErowtM1MA2X9KXBm9FdAEAx0Fv4-LtGAY6k39h_hy_rqsyIldq64uBOGTFySEr5_JZYAac96uYksHl5GaDN7IvJFZsEa9AJbC1zavlXyV2IxCgIg3z32PBoT7qgs4T6VsgEZMHQeYJ8BWCU5i_EYUL0EWzRfHugo49Uzo81nX3Fkocwx8GMNhOX8GnR32xOIfY4v-h4Xy6GEMtBa1ziM0jwiZEfXiGuYoiZj4ffirCDEhMn0HF-q27NMJMX6nX0Wcas3fVGY7dIkGldZ20iFv4AxSwaFGCmFiM4e7nXRaVJe8wK7nw0__lomD8icowQoYV8w59Tze2kTAiGSWybfyaNLW4fbQF_i3zIbwOmyl57JXAh32LSWG8SWxc32iuHk0V-eBWt0yw6iRfSc0LVg3q3pmNC7I6cP0Iy2ja-Fd9_nRvicmoD_G6bCLrOt1obJiWoM4KncTeiMMWYRh3Rr&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Ground Floor, NO.86, SPENCER'S TOWERS, Mahatma Gandhi Rd, Haridevpur, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": 4,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwWzHW5cXrjsRSUYk6pvrsjU"
+        },
+        {
+            "name": "Farmlore",
+            "cost": 0.0,
+            "latitude": 13.1273276,
+            "longitude": 77.63935230000001,
+            "place_id": "ChIJH1j-ke8ZrjsR157H5DoLZhE",
+            "rating": 4.7,
+            "user_ratings_total": 1362,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpQ92QJL7ql-DuQujJb8e0q-3x5AyED98PHStN93JWmkG74Fa6T4tEmy0p3Lpih0DIXP1b69R3TuEv_LtqdEva9FaODBfIgKgrRLc4t-AtMkTVXho7vlmyLmfpqX3BzED5qyoWZd3UhWrRYkR7EnRt8rF6UdBQePV6XbpD7d8GIwQM_KY-9QI8ioEeNFoOovDCWvJ52VA3OVPp9sTw-m0_vpFnfKhyz7FvkRf1RNq2REfn7wjUXTNCoxYaY6lEe7ar5rSPG3oSVgFr3pn56iq-4no1VwEdD1H-d_tK2ggAMj4G09BJiPqXGDTAIFjtmYZZC2QOOzi33zy8cCC6-3ncxRUAz33WchDz5g2X_zI9Ny57RGlYwod2Xm15380WcnJdn9iJsW_-cqqhnH_rdb1xOxpCjlomJLcbnV6lD9fvVSKKsIirsuNtqLq8FnW72sG4fXGU4nkfYQ4EyBWxL9JgklEBzpq25qJlFzADA2Vyb8195ws7ACUURfQatMz81rKeCKa98UdGpgUnp21q94zITtoWtzs6l-elFoZuiCQ1pRJ9AFrOLx8ErIlBmJK9sJrtsP39AyU4ntQ&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Survey No:67, Mohan, Raju Layout, Bagalur, Sathnur Village, Bengaluru, Karnataka 562149, India",
+            "price_level": 4,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJH1j-ke8ZrjsR157H5DoLZhE"
+        },
+        {
+            "name": "Shiro Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.9716517,
+            "longitude": 77.5959781,
+            "place_id": "ChIJ897J43kWrjsRwLzr4oSg67c",
+            "rating": 4.4,
+            "user_ratings_total": 5541,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHqDE8R2uAIx1DxqJ7EashjixuXtcvtmUdSSMICnpL2VikUykqT5KUGBUI41XU7HxlifBolOlf1TBIbpvm81Zlqf79dzrHS33zOHJY6Qc98HwIKg5uEC2tdzWXNwVuouerlTGl5GeTtUZDyv75msoiA74d0lj_mSPrrYd7JYhl6M0u0PT8_C6E4BDpEkVKKaS4M4VRfKVGCXIENMK777VI-gKXa_Hv4zNJr70qu3O-k1VZJNlT262_qRrSdAb7xQqFxm3RIes6iw2IahI0lnsiLEap3kXXHhYJ5hceJpaBGMdqRL-OWJGmEOXE5GZqQQrxSv9bWuvfWJeH-oxpFVeyXLIkDvD5i_TMzKdd05jHKPUQ9AcAo1y5C7MLgrPuW019denI3mJaK5qygq___JfyfANjmMvD4JunKw1WO425j-0mBnCoyIgAZAqJEkJWUWvxsO9gH1aMANOU5dkUqfXbD0L80eZkMc1VbIEQjGbMKQJPGeVqxx0iH3jhXajGWGx95Un6aKJDOrbt5tgSWCWnCnuofekncaDJAgVc5_Bgpu5hCvySAqHzyStsmgQuh8Kw6gnUyZTRm76g&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "3rd Floor, 222, Vittal Mallya Rd, KG Halli, D' Souza Layout, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": 4,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ897J43kWrjsRwLzr4oSg67c"
+        },
+        {
+            "name": "Karavalli - Vivanta Bengaluru, Residency Road",
+            "cost": 0.0,
+            "latitude": 12.9724473,
+            "longitude": 77.6086535,
+            "place_id": "ChIJ5QD7Rn4WrjsRH_yAmEEDe3c",
+            "rating": 4.5,
+            "user_ratings_total": 4496,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrcMRVjospF_nE-4GmBUdJKMJbG9eRrx53_WeHZY6Eh95GU66UOadmHa8EFZwlpCmArfwsiioV1Kx4kzcEEQvb3dWw7vjXLCyGqD9xuOF1YVcd26ejLMPylfq04A_OXOIzNA2pcu2HjBuEyfOYpaD5WmHebw65hvCYN8owmEuQMGvsXQBXOBD1HEemRJ9aolV1jYZ8F9gjTY7EgKNPPoUfoxV1GGIkXcm-UAC3USyWKtKp9VyQFQOpuMoLzFiSlC2ZXGL7HG3tWUfZDCD-I9HFPY631uJBrG2eO4wSjtByiiswkbxtvznU_D6Heabjr3IwL29dt1wjMZS2m27lxLWzqRZLNQCIuxDuUzuVyU_u4syaHeMZYHsm4LyQO7xFzd10Gs3s_6aKfdNqiBqPKXmESVY5HvDlR2VypwfdAVARqoOH5jSL0nb-gHxKOvSzE5-Cw5m_DvoFL7MVRTHxOTClpR86pOMQiYZDKJkmGUTvfcuoErR_RWbcgFoIqfkJvO1HcKttK1q0BtRp5gCRw2qYE34YAw_PXR6wXqjjiK5lpGkGkUYMG7pd8sG4-y5XwYMJfAKr1zsnc8MVhdSbgvwg3QAhk8Q&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Vivanta, 66, Residency Rd, Srinivas Nagar, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+            "price_level": 4,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5QD7Rn4WrjsRH_yAmEEDe3c"
+        },
+        {
+            "name": "Lotus Pavilion, ITC Gardenia - Restaurants In Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.9670001,
+            "longitude": 77.5957737,
+            "place_id": "ChIJW0EJK3YWrjsRpa39RV0Fy-8",
+            "rating": 4.5,
+            "user_ratings_total": 3117,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHp3aHBn29K44mOPs_YbZKbqSK1n8Gns45TNWwvcy6wg4GhPV8YRc-KfTU5ZHrX_gmFrQ0mvUtk_aW4mwLc7AH-wBIXHtdohslzDCtVNlwxNoD4WXuqidhn2_pzJUTbMZKeKLKoBldXAm8u9VjdIFg1LN3Z0OaIcwIOV3kbuwhLK9bE2BRVx3is2YfcvZbE-hK4KCGr2wZLCGkUoEEzFfB5Bxl5FCmARCQ6h6nV09Ga7x5DqY5PMBTV9rdXULJ-Yki-z1F4ed87aV5dveg7G3T9H1Or6fS3hWQlmJrwCbTy1gyfnRu0&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "1, Residency Rd, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+            "price_level": 3,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW0EJK3YWrjsRpa39RV0Fy-8"
+        },
+        {
+            "name": "Yuki - Pan Asian Kitchen and Bar | JP Nagar",
+            "cost": 0.0,
+            "latitude": 12.9061272,
+            "longitude": 77.5897619,
+            "place_id": "ChIJCX6MvmwVrjsRYJRBPVVJeyk",
+            "rating": 4.4,
+            "user_ratings_total": 1664,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrFGN6mcJacsIUudKTU3l0Hry8B5s_TnPOrWjDNJ_IQPq45ig8mRnMI4D0zP47lKI7na3ntfI8cyHrmtxG9RdFGSoDPXHLf2E0F5EEL-Deyhg5M2EmeA0O6ceDh7pIF-spAltnyG6gMq_1TXJwiNbJDQMS2uYI3eyLPUEaoQGT14BdGg8UzE1KFnZ7C43GRlriFnwCLViLf-2lBasUB1Fx_APCfCfqKRESCghVdoNj_hcmDVQVo2sPzSIqrSw8bwotqe8crdsTDXG5n5UD50NM_UGOcDJL5g7TM48XbUGnUk5E07VrIbSwBkZtjjmxtRLelrBcg73hYPudpd8LGs5Ev1qZXkzm0YG7SgHYTm_HqIwPVTQ4YywFuFQP7vaBpjrxc9AH7idIYg7TY_S_VWDAmamNHNcpH-a37wgADF_6AKfLXVId1OOhycMh4j8BFicl1gtlUrCicHHWXFQoL5QNaxJm9_MjCIGtRtsJ6hjjKgNSuRJbHwPxUHKY3gkhXxT6I7SCsVL8PD3y-IgKoKaJiWGsvyOPsxC_cbqnqsv2QDy5bA282JwXZfXmpR-dZTEQaOS_X&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "No. 3, First Floor, 15th Cross Road, Outer Ring Rd, 5th Phase, J. P. Nagar, Bengaluru, Karnataka 560078, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCX6MvmwVrjsRYJRBPVVJeyk"
+        },
+        {
+            "name": "The Only Place",
+            "cost": 0.0,
+            "latitude": 12.973234,
+            "longitude": 77.60340169999999,
+            "place_id": "ChIJhUwCoH4WrjsRXHFQjoJQxzQ",
+            "rating": 4.2,
+            "user_ratings_total": 8429,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "cafe",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHryWRjd_GXDdsHzYCdKn8VoDrFWRLhr5DxFdhD80hj1XK7U5xGfVVCRmug5RO5m_GXwOuV-2mTwBcqVkDJrIyzZ1_CvaShBA49uDy1DNyic_La2KWed32mbl9SssiA3h9pIwqRafxi-v3gYMGyhMZuBM6UQ561jXC5QAXGodgRdVxIeHTD8BKglaLX4tfSbjOeawcW2krK7UMq38_JqfaNgVeRDQAgZewWCtX08w33xsOBsHnxg3xJDBUJIFJiHKG29ywWQDQIk1OOtKQGeWauSXCQRU1GbycBjhskRp7-VlS3CzG5PAwUlPqiwP_PFmGb0lT13pBJk22VwQkhfwk2tshfoUNDbsGCmcqIaEAmiUMivtV8duh6TTG5DxsaM81Cee_0SvdDSbKhXneDCX3VSk2q3LsWavG0LCNAQRmbOfDlBx8-_zBch3eFFMyG4oWRlU6ORHowpr8iuksfBMe3wL2CiBisQ2aRJ4DNfuWf5AcJJ99FKGfZ6OlsOM75nuLi-WFmA4QWHfS-uuXEr4Mdxh5J_pP_w21bCsU8DAqua4DLZPcGbqR4Y0ev46e8oIspn6F8n&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "13, Museum Rd, next to Post Office, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": 2,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhUwCoH4WrjsRXHFQjoJQxzQ"
+        },
+        {
+            "name": "KOKO Bengaluru",
+            "cost": 0.0,
+            "latitude": 12.9601107,
+            "longitude": 77.6478515,
+            "place_id": "ChIJ116PQYIVrjsRf3FiXYSq07w",
+            "rating": 4.4,
+            "user_ratings_total": 691,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHp6gRwDWANAvtb3qwKDNRQTvGQcZfBsxqAqm3rcK8tjM9S_2IuX87m5oDHSSiM0jAX9mR3ik6931IVAASiKtKPXybZ3l8uUvjBDy1dAB-VtqYA45Q6FwY4-8u6MZScTNg3oCPbLodow-Lg_3_sevcP6Z_CgH63jNLWv7fSaFTJcK3iIxP-t6XiN29liTTguqRZRW9-qVIGbg4eekrWwF54C0Xuz3hpirakvQLryWTGzGH8UIycvqwGW5NDw-ZNAxKbLz5UxyDzdJad0d0Rq4DgUVLLwE4vtLg_Cw0XM68TyzvFNdIKCK6hBvsmokYNQAv8ICWoXuSRDcfjPI3fKbge3CNEyUuFdCxTYmVGGfC8_FJJysHvmTRWd1LQrlAjtyhZnV5p8ppte4Lai9V96ZfXA1TzGMJtsKlQOrXCErbT3VjsoPqyakrfZ_dpITfdr55lZeNGjL9lpCKfWZ3HMC97UqsA7_qK4ZeN272VxQH-JmP3WsOM22qs6_jotobcRwumYm4EnRCSJBEEjrceOKIHi9Omhm-dqSbM5mNCgNogOPT-qr7-0bhjcBhfO6cxGFPdCudQWwxLJIB369l-nsgdCgUx1IA&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Prestige Icon, 4121/S HAL, 2nd Stage Kodihalli, Jeevan Bima Nagar, Bengaluru, Karnataka 560008, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ116PQYIVrjsRf3FiXYSq07w"
+        },
+        {
+            "name": "Roxie",
+            "cost": 0.0,
+            "latitude": 12.9151978,
+            "longitude": 77.6658216,
+            "place_id": "ChIJL4iI0HwTrjsRvs6L6BiUBcs",
+            "rating": 4.4,
+            "user_ratings_total": 7913,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHoeDqjQoUu-Bbzm_8q1KpMm5WXNEBxkjGGgVvxDmQvduTasNfMF7HxTN9G9I1jjyfZxSei5xOyuVHs2aQ7lfl37tPYcbbmGI_UvHse7fS26zbgs7anilHxW1KfTGgkRtKMrQRIZklZGZ976TY_n6Hx_9qR6GiP3P5Cns8253yHUxxmDtfP1IKoMGcl2DvOc6PN7f7h7Q8VItpqE0Z5wbtQUl4cTWE4P1tkhDxFuRmO0gVf_pbGLG5wyz6xn6OLLju-VOE7pt38iTfXPswCuzPGuamclFZTRv3Y-Jt0p-iVtUEB1zMY&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "26, Haralur Main Rd, near HP Petrol Station, Amblipura, PWD Quarters, Ambalipura, HSR Layout, Bengaluru, Karnataka 560102, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJL4iI0HwTrjsRvs6L6BiUBcs"
+        },
+        {
+            "name": "The Palms Brew and Kitchen",
+            "cost": 0.0,
+            "latitude": 12.8967025,
+            "longitude": 77.5818269,
+            "place_id": "ChIJ32_EIXgVrjsRZAlzjzlGYXE",
+            "rating": 4.7,
+            "user_ratings_total": 5076,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHruYacHGaVXe4J0AHapjV_v1vHaOkEmSyjEj5skBJ8Lu8nje3bzK5hLlyb2LEEBBFCcXPnT2kmNtlQXl_J_l8huHr_BczNdTKzpGrqYTSG3yDQfK4MBI3BCPPFdzUQ52KLB5ZAFZ_dafUkjZlmQ8aVXje3whxluxLQ0gBfqhjAjTEp9ICMhzZBiypYOpiclFGDT6DbAq8PflWk11nYON4p8r_1NlEnFypT3e0WSp6oFAdWAxP7Y_HTfxeeKDBY3Df5_bVKghj6PZShsFZLZnkJbJnCHVz7OBQFw5mtlFRhfWa7uk2RHzt0FF_lJXKw5YZ1X0sn3GCpiYvQRLlzy8sKBZzDLR4M_mvu4pmj5mgYJ46QZ6ZJnx2Jn_CNy07rXYoGV4JbJUyrHv20ucF81fiN3FI2t8haRqPPZUvjCjCC4GGxP6gFF9EBMwDkQeWl0rwfmeybOsDf9tGPS-jIS8b06v7NynqIwKM3xyuIxcwwFLDq0hD1QFUT0JjcJPSFoVmnrNaqtwlfmJ_3yiNv5UQfNbRAtP7BIaFj_9C1MB_MktbFaG0Tnm7Ws8rBZDu3agVS0Nikowst62AGO9gGA1L_pZj_knQ&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "No. - 4/A2, Kothanur Main Road, Puttenahalli, JP Nagar 7th Phase, J. P. Nagar, Bengaluru, Karnataka 560078, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ32_EIXgVrjsRZAlzjzlGYXE"
+        },
+        {
+            "name": "Cubbon Pavilion - ITC Gardenia",
+            "cost": 0.0,
+            "latitude": 12.9669189,
+            "longitude": 77.595728,
+            "place_id": "ChIJIcg0IYkXrjsRWhn8BiNHq0Q",
+            "rating": 4.4,
+            "user_ratings_total": 170,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpooEEM5j1E0arHG_4JfbI9Y2VNDlE_lGT-8mHMbSKLFgnTWL08SRcKrO2sSNQMzVitYosefh76wb5W5TPuBz_i4Q1sGHOLVqIF5py5E_0rTny_xwzGqK6KWd0VNg96Kq9TY-nXqJ5f9j_gYD7IuO2RL0M7B6IK9jT8edIpxcA1QHUv8fxOBjpxUmAUcyFDihWieCBZGmZjbrydbWP37HAbpoVEiLCQI0gfVKKPJoJIG7IwYKfASR__uaQzwbqC0ZhY0P_NbryQ8uM1OkaROda1UlhmCaEDeiD4uIt5WVVP7eXmE1E&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "1, Residency Rd, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIcg0IYkXrjsRWhn8BiNHq0Q"
+        },
+        {
+            "name": "Atlantis",
+            "cost": 0.0,
+            "latitude": 12.9239421,
+            "longitude": 77.6403078,
+            "place_id": "ChIJ85cIXUsVrjsRixdjo1sh9xA",
+            "rating": 4.4,
+            "user_ratings_total": 2890,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHpKelorDMRBoYayUH-zJKSjQLSR04rnlsftTWO6ibXItT_BS8NzhFIRdyRpUiI4DO_NhQXtAf5vr104TAspioMtliFscyCobIAA5J9BEdSlJcXxcdb1xki6IgHvdpyeBn9FXY_V_GBebGBN2HT0I8Rrha9y7jm2eENEldQ7X8mT-EJ0t8yM49dhUJ4TAnZ3ltUrTiYIeYBRd4bm0Rs2D3aeUNA_ING3LfAN1YUhVQ0yNl8JurIfVim-Dvhl8PeMrDADcKjXLHlynQNfpj4m5UW9oM2MjkphBAE3VIu9IW-8Lbwd3ri9k8Tt6jEZNSOI_gJ7EhSISGKuMsoRsPaEPwNtMQ-x33TXYmRPbycQCbj_WaOfjWSfYCzjGVz_DclmCAVFhWC5lpG_fAwaST__vSEYi2H_0MB3i7lJFXWOtLTkfiokKgiszX5q5vu3qBxoicJIqVHConSGdU5wGEOmsT-5qtsgjdrGgy72tMmc5eJcakZTGI3gTNq1QXYqcHz01un0p02GIVoiulHaT3HFI4tfN88dfM9c43_Z1wnAiZi8TA1eOANn0o4ue4_47ZouZQiWJ9PnthUoeH0ABkOwuG_Vz2AtBQ&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Sarjapur - Marathahalli Rd, Agara Village, 1st Block Koramangala, HSR Layout, Bengaluru, Karnataka 560034, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ85cIXUsVrjsRixdjo1sh9xA"
+        },
+        {
+            "name": "Bengaluru Restaurant",
+            "cost": 0.0,
+            "latitude": 12.9665717,
+            "longitude": 77.5831472,
+            "place_id": "ChIJf2-y-BwVrjsR0G-Ts_6cAVs",
+            "rating": 4.7,
+            "user_ratings_total": 444,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrfBBa0qnmpyENvFv3AYqXeDeZ_aeo7waD9lFzoSHMTDsBXe07nj4zwbs0a7u8zeiSZBhSOVy5S2ZJw2B_x2ovN5ZGTk02xaM_H0FEDHKG73OU0Mi2PHqgd08KovzlcJnEa4Mdcdth_3eJtYPiqGST67UItJ5r-yba3daETr_FjfVwVuYgiyVLmycdsxAEiCT9TdqMBp1v8bKz7_qxI6g5xeW9tMi_OYwspMcH4j8EG5kEkQrw_dEAGleupq9ZoI1h2cesujC4fJEkI6Ym5RResxXYs0Ibh9XYZdZRRiksnXfARU0BHv9XtDkFlMa9-UWEs1xWWMtvpRvou9l564Z3hhgUZqtf0Z-tx6CbWUaoev8a-Wu7HIrLzWLAP-Azwxjv7pzrr1TK1yDMRGTuh8AKiSPuy1OonglgCrWTRw-WIAeNK9vfxWjE6VmIdVHa-KHt6B6Jv311OTFpGg0iMPO6FJmXH4Kh1oPjYw8I93EpjP8CiNKsP5XzMJhe53wAgoqTmSrnlQdRv_5pG2xFvjZ-uFfNpzG0-hHRvcj9CMNyIk88mjWkYME36f1AZd2ngPaSBItYZ&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Ganigara, C, Gurkar Ramanayak Ln, Bengaluru, Karnataka 560002, India",
+            "price_level": 2,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJf2-y-BwVrjsR0G-Ts_6cAVs"
+        },
+        {
+            "name": "The Bier Library",
+            "cost": 0.0,
+            "latitude": 12.9390885,
+            "longitude": 77.6262088,
+            "place_id": "ChIJsaosImcVrjsRPP5rNvYTmLc",
+            "rating": 4.4,
+            "user_ratings_total": 21916,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHp1eQuhDjfFc98KVQFjI3ZMi2U9zZNX7uiz_P2LopFDPzKRfxNIXPQ1cEjNljdpK9vAlA_PJbql8AKkS2u_5_U3K0O4y1TQYBCupfa4TN3kKNbVgpxr76glskYZ4onXTKjvLTxnXdM3zVO2oztND64-NqORbrIlerou2msufmDlY3Y6nKJexDiJW8mmW0KFGsSV3RXS8sW6m8KVoWrE0QghpL2cMJ10eYp1RaT0PaLRtJ8upw9nZaIPdRqyWf6UYWVFsHYYh7cvPEqRsCKR3cQmR1GcJQCTKV26oTyJvEe2skq_vKs&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "14, Patel Narayana Reddy Layout, 80 Feet Rd, 6th Block, Ejipura, Bengaluru, Karnataka 560095, India",
+            "price_level": 3,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJsaosImcVrjsRPP5rNvYTmLc"
+        },
+        {
+            "name": "PARAGON RESTAURANT",
+            "cost": 0.0,
+            "latitude": 12.9750793,
+            "longitude": 77.6025346,
+            "place_id": "ChIJvz4VJW8XrjsRriPDGjNnXdQ",
+            "rating": 4.4,
+            "user_ratings_total": 5591,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHq4SbVrlfCCq2eYQKUXc3av5EE_8ZMY5mAxeuqOFWUpdJSLz__axPeTPe8dbi1t7t7IvW12bg4xyAildQ-46CThtI5RxuPEAbsGq0OFaKOBJboyudNStMJyXlwHr1Je36wZIxrPJzR4S-UMuPcPPgcBiqZt7yMtJlzEG9Xp_77roR9bXKTZRRYHgQKtnaASdKxP9YKOChRRzxx8X_IAJ7FZDgxTFCITOr2imyK9q9IBFpSKMJlzbOpQepbEh9l7thG0PdI1jUH5oA1VcgvjBq5DGVT3u8X1G-WVsXafgd677xUSa3LsnAgwK1znO3IpMw54lWJXJZppXEfSAvSEfuELXDDHRghJiUqu5dhRXDEVyaGEjhRVUzTpGkegM5wzalaV8tEFG0W1rT6AMIHYFp09anJdJrmDoHIjxuYvwsVWVOiszxpy4nFhyP3sRdQp-Eb0rK6T-vW30PHz7fTFaORoWmXXC1HcjwDa8N5jUF3Mtz48nHuh9wQQ8zYwBUo3e2wyBKTo3_fkiYzS_khFEo8hgJASkgAIZLwxOQVPK_akKGbsSq1hL0UViNjpXEBK7p8fnSK2oFrWyG8xGCf0ZGab8cUq-w&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "1, Sobha Mall, Church St, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": 3,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvz4VJW8XrjsRriPDGjNnXdQ"
+        },
+        {
+            "name": "Glass Kitchen & Bar",
+            "cost": 0.0,
+            "latitude": 12.9801397,
+            "longitude": 77.578453,
+            "place_id": "ChIJ83uLPhAXrjsRPajPxoPfU6Q",
+            "rating": 4.5,
+            "user_ratings_total": 334,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrIv14zcSBHu0IGe3Xoy7W4_NUHPGfTx-c9NiVOw_xoe4VjnkzeWQlKxFIO4LSy4FyaBcf-FqO4Zo4rSOPCg6jTT_6rgYSf_siUO079oRdxQtDGbNBt0ShfNx7OPYJIWG7khr3PnEkjv_7fOkBlo7eYaLyAZmQ_LsD5W2fE5ci80Z7F-rfRLLGvEagqMBql_rc_sgm5eviECWf8SYLheeqtMoKOCoTALWoaEsmeLDwIKzEaXmsq-veSBvl8MvaqKzD_M2bZ6A4tq5eQazm2Sks_k69f0_nWiPlbs91uTejMrbWyzG8&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "Ward No.94, 16/1, Seshadri Rd, Racecourse, Gandhi Nagar, Bengaluru, Karnataka 560009, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ83uLPhAXrjsRPajPxoPfU6Q"
+        },
+        {
+            "name": "SALT - Indian Restaurant Bar & Grill",
+            "cost": 0.0,
+            "latitude": 12.9718595,
+            "longitude": 77.5961667,
+            "place_id": "ChIJk881HPUXrjsR6nmB9d4ucgQ",
+            "rating": 4.5,
+            "user_ratings_total": 907,
+            "business_status": "OPERATIONAL",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZLasHrl5Lpym3ryVNuG8ivNIYTYOSecbvOEsOiIwGFv8RUvGVQihFrjn2oOZp7JSlureg32UJCN-q3661tLwXd25dojijM2xCiJjhCDbFXCKzcpYe-XKUbZHQdg8N-bRe_GwTlb6thdtcvr_1n580i02LyL0NBUK6_4OOUl2ffMj7VvAyvy6YRqJeVn3D_NNIXRKY6i8kIWO195omZedcu1YOsVRtWO06CWQuulb5NyS3bg8CKuFooPFLfe1rhEiJW3ev3zbfGul_8RtWZLowxZf9WfaODtgHYXuRICsrOD0mQDFSP_mV8&key=AIzaSyCDX6DSWrQt9x-xxvSL8g-qWZrXj5eL86E",
+            "description": "2nd Level, UB City, Concorde & Canberra Blocks, 24, Vittal Mallya Rd, KG Halli, D' Souza Layout, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+            "price_level": null,
+            "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk881HPUXrjsR6nmB9d4ucgQ"
+        }
+    ]
+}
