@@ -119,7 +119,7 @@ class SchedulerService:
         - The output must be a JSON object, representing a list of daily plans.
         - Each daily plan should include:
             - "day_number": int (e.g., 1, 2, 3)
-            - "points_of_interest": List of POI objects (each with 'name', 'place_id', 'latitude', 'longitude', 'cost', 'description', 'google_maps_url', 'image_url). The order of POIs within a day should be optimized for travel.
+            - "points_of_interest": List of POI objects (each with 'name', 'place_id', 'latitude', 'longitude', 'cost', 'description', 'google_maps_url'). The order of POIs within a day should be optimized for travel.
             - "total_cost_for_day": float (sum of costs of POIs for that day)
 
         Example of desired JSON output format (DO NOT include ```json or ```):
@@ -134,8 +134,7 @@ class SchedulerService:
                         "longitude": 1.0,
                         "place_id": "xyz",
                         "description": "...",
-                        "google_maps_url": "...",
-                        "image_url": "..."
+                        "google_maps_url": "..."
                     }},
                     {{
                         "name": "POI B",
@@ -144,8 +143,7 @@ class SchedulerService:
                         "longitude": 1.1,
                         "place_id": "abc",
                         "description": "...",
-                        "google_maps_url": "...",
-                        "image_url": "..."
+                        "google_maps_url": "..."
                     }}
                 ],
                 "total_cost_for_day": 25.0
@@ -164,43 +162,9 @@ class SchedulerService:
 
             # Validate the structure and safely parse
             if isinstance(day_plans_data, list) and all(isinstance(dp, dict) and "day_number" in dp and "points_of_interest" in dp for dp in day_plans_data):
-                parsed_day_plans = []
-                for dp_data in day_plans_data:
-                    pois = []
-                    for poi_item in dp_data.get("points_of_interest", []):
-                        if isinstance(poi_item, dict): # ADDED THIS CHECK
-                            try:
-                                # Ensure essential fields are present or provide defaults
-                                # before instantiating PointOfInterest
-                                safe_poi_item = {
-                                    "name": poi_item.get("name", "Unknown POI"),
-                                    "cost": poi_item.get("cost", 0.0),
-                                    "latitude": poi_item.get("latitude", 0.0),
-                                    "longitude": poi_item.get("longitude", 0.0),
-                                    "place_id": poi_item.get("place_id"),
-                                    "rating": poi_item.get("rating"),
-                                    "user_ratings_total": poi_item.get("user_ratings_total"),
-                                    "business_status": poi_item.get("business_status"),
-                                    "types": poi_item.get("types"),
-                                    "description": poi_item.get("description"),
-                                    "price_level": poi_item.get("price_level"),
-                                    "google_maps_url": poi_item.get("google_maps_url"),
-                                    "image_url": poi_item.get("image_url")
-                                }
-                                pois.append(PointOfInterest(**safe_poi_item))
-                            except ValidationError as ve:
-                                print(f"Warning: Pydantic validation failed for a POI item from Gemini: {ve}")
-                            except Exception as e:
-                                print(f"Warning: Unexpected error parsing POI item from Gemini: {e}")
-                        else:
-                            print(f"Warning: Expected POI item to be a dictionary, but got: {type(poi_item)} - {poi_item}")
-
-                    parsed_day_plans.append(DayPlan(
-                        day_number=dp_data["day_number"],
-                        points_of_interest=pois,
-                        total_cost_for_day=dp_data.get("total_cost_for_day", 0.0)
-                    ))
-                return {"status": "success", "day_plans": parsed_day_plans}
+                # We will re-hydrate the full PointOfInterest objects in schedule_itinerary
+                # This function now just returns the raw parsed data from Gemini
+                return {"status": "success", "day_plans_raw": day_plans_data}
             else:
                 return {"status": "failure", "reason": f"Gemini returned an invalid itinerary format: {response.text}"}
         except json.JSONDecodeError as e:
@@ -222,6 +186,9 @@ class SchedulerService:
         if not points_of_interest:
             return {"status": "success", "day_plans": []}
 
+        # Create a mapping from place_id to the original PointOfInterest object for re-hydration
+        poi_map = {poi.place_id: poi for poi in points_of_interest}
+
         # 1. Prepare POI data for Gemini and Distance Matrix
         pois_data_for_gemini = []
         for poi in points_of_interest:
@@ -233,7 +200,8 @@ class SchedulerService:
                 "cost": poi.cost,
                 "description": poi.description,
                 "google_maps_url": poi.google_maps_url,
-                "image_url": poi.image_url
+                # Do not send image_url to Gemini as it's not needed for scheduling logic
+                # It will be re-hydrated from poi_map
             })
 
         # 2. Get Distance Matrix
@@ -255,4 +223,24 @@ class SchedulerService:
         if gemini_itinerary_result["status"] == "failure":
             return gemini_itinerary_result  # Propagate the error
 
-        return {"status": "success", "day_plans": [dp.model_dump() for dp in gemini_itinerary_result["day_plans"]]}
+        # 4. Re-hydrate DayPlan objects using the full PointOfInterest objects
+        parsed_day_plans = []
+        for dp_data in gemini_itinerary_result["day_plans_raw"]:
+            pois_for_day = []
+            for poi_item_from_gemini in dp_data.get("points_of_interest", []):
+                place_id = poi_item_from_gemini.get("place_id")
+                if place_id and place_id in poi_map:
+                    pois_for_day.append(poi_map[place_id])
+                else:
+                    print(f"Warning: Could not find original POI for place_id: {place_id}. Skipping.")
+                    # Optionally, create a minimal POI object if original not found
+                    # to avoid breaking the structure, but without full details.
+                    # For now, we'll just skip it if the original isn't found.
+
+            parsed_day_plans.append(DayPlan(
+                day_number=dp_data["day_number"],
+                points_of_interest=pois_for_day,
+                total_cost_for_day=dp_data.get("total_cost_for_day", 0.0)
+            ))
+
+        return {"status": "success", "day_plans": [dp.model_dump() for dp in parsed_day_plans]}
