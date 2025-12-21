@@ -1,0 +1,85 @@
+PROJECT DOCUMENTATION: AGENTIC BUDGET TRIP PLANNER
+===================================================
+
+1. PROBLEM STATEMENT: THE PARADOX OF CHOICE IN TRAVEL
+-----------------------------------------------------
+Modern travel planning is plagued by "decision fatigue." Travelers are overwhelmed by:
+- Infinite Options: Thousands of hotels, flights, and attractions.
+- Hard Constraints: Rigid budgets ($1500 max), fixed dates, and specific interests.
+- Cognitive Overload: The mental effort required to manually filter options that fit all constraints is exhausted.
+
+Most existing tools are either:
+A) Static Filters: "Show hotels under $100" (leaves the user to piece the itinerary together).
+B) Rigid Packages: "5 Days in Paris" (ignores personal constraints like budget or specific interests).
+
+The result is a frustrating experience where users spend more time planning than enjoying the anticipation of the trip.
+
+2. THE SOLUTION: AGENTIC AUTONOMY
+---------------------------------
+The Agentic Budget Trip Planner shifts the burden of planning from the user to an AI Agent. Instead of a passive search engine, the system acts as an "intelligent concierge."
+
+Key Differentiator:
+The system doesn't just "search"; it "reasons." It builds a plan, checks if it meets the budget/time constraints, and if not, it *autonomously re-plans* without bothering the user.
+
+3. SIGNATURE FEATURE: "TINDER FOR TRAVEL" (COMBATING DECISION FATIGUE)
+----------------------------------------------------------------------
+To specifically address decision fatigue, we introduced a "Like/Reject" mechanism inspired by dating apps.
+
+How it works:
+1.  **Generation**: The Agent generates not just one, but a set of viable implementation paths (candidate itineraries) that all strictly meet the hard constraints (budget < $X).
+2.  **Presentation**: These are presented to the user as simplified cards showing the "vibe" of the trip (e.g., "Culture-Heavy w/ expensive dining" vs. "Outdoorsy w/ street food").
+3.  **Interaction**: The user quickly swipes "Like" or "Reject."
+    -   **Reject**: The system immediately prunes similar POIs/styles from the search space.
+    -   **Like**: The system locks in those preferences.
+4.  **Convergence**: This rapid feedback loop allows the agent to converge on the perfect itinerary in seconds, rather than hours of manual searching.
+
+**Why this solves Decision Fatigue:**
+-   **Binary Choices**: Humans are better at saying "Yes/No" to a presented option than creating an option from scratch.
+-   **Low Stakes**: Rejecting an option feels productive because the agent learns from it instantly.
+-   **Speed**: Reduces the cognitive load from analyzing 100 separate data points to simply reacting to a "vibe."
+
+4. CORE FEATURES
+----------------
+-   **Constraint-Driven Architecture**: The budget and time limits are not just suggestions; they are hard logical constraints checked at every step.
+-   **ReAct Reasoning Loop**: The agent operates in a loop of Thought -> Action -> Observation.
+    -   *Thought*: "I need to fit lunch into Day 2."
+    -   *Action*: Calls `poi_finder` tool.
+    -   *Observation*: "Found a bistro, cost $40."
+    -   *Validation*: "Total cost is now $1510. Limit is $1500. REJECT. Find cheaper option."
+-   **Live Data**: Integrates with Google Distance Matrix API to ensure the itinerary is physically possible (e.g., accounting for travel time between Eiffel Tower and Louvre).
+
+5. ARCHITECTURE OVERVIEW
+------------------------
+The system is built on a modular, tool-centric architecture.
+
+[User Request] -> [Planner Agent (Gemini-2.5-Flash)]
+                       |
+        +--------------+--------------+
+        |              |              |
+   [POI Tool]   [Scheduler Tool]  [Cost Calculator]
+        |              |              |
+   (Fetches       (Optimizes      (Validates
+    Data)           Route)         Budget)
+
+-   **Backend**: FastAPI (Python 3.10+)
+-   **AI Core**: Google Gemini 2.5 Flash via Generative AI SDK.
+-   **State Management**: In-memory ReAct trace log.
+
+6. AUTONOMY FLOW
+----------------
+1.  **Ingest**: User provides "Paris, 5 days, $1500".
+2.  **Plan**: Agent drafts a skeleton schedule.
+3.  **Refine**: Agent fills slots with high-value POIs.
+4.  **Validate**: Agent runs `cost_tool`.
+    -   *Scenario A*: Cost is $1400. Success.
+    -   *Scenario B*: Cost is $1600. Failure.
+5.  **Self-Correction**: In Scenario B, the Agent autonomously swaps the most expensive activity for a free alternative (e.g., Park visit instead of Museum tour) and re-validates.
+6.  **Final Output**: A guaranteed feasible plan + Candidate variations for the Like/Reject flow.
+
+7. FUTURE SCOPE
+---------------
+-   **Real-time Booking**: Integrating flight/hotel booking APIs to make the plan executable.
+-   **Group Swiping**:Allowing traveling groups to swipe together, finding the intersection of preferences.
+-   **AR Preview**: visualizing the trip in Augmented Reality before accepting.
+
+===================================================
