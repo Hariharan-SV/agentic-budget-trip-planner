@@ -119,7 +119,7 @@ class SchedulerService:
         - The output must be a JSON object, representing a list of daily plans.
         - Each daily plan should include:
             - "day_number": int (e.g., 1, 2, 3)
-            - "points_of_interest": List of POI objects (each with 'name', 'place_id', 'latitude', 'longitude', 'cost', 'description', 'google_maps_url'). The order of POIs within a day should be optimized for travel.
+            - "points_of_interest": List of POI objects (each with 'name', 'place_id', 'latitude', 'longitude', 'cost', 'description', 'google_maps_url', 'image_url). The order of POIs within a day should be optimized for travel.
             - "total_cost_for_day": float (sum of costs of POIs for that day)
 
         Example of desired JSON output format (DO NOT include ```json or ```):
@@ -134,7 +134,8 @@ class SchedulerService:
                         "longitude": 1.0,
                         "place_id": "xyz",
                         "description": "...",
-                        "google_maps_url": "..."
+                        "google_maps_url": "...",
+                        "image_url": "..."
                     }},
                     {{
                         "name": "POI B",
@@ -143,7 +144,8 @@ class SchedulerService:
                         "longitude": 1.1,
                         "place_id": "abc",
                         "description": "...",
-                        "google_maps_url": "..."
+                        "google_maps_url": "...",
+                        "image_url": "..."
                     }}
                 ],
                 "total_cost_for_day": 25.0
@@ -182,7 +184,8 @@ class SchedulerService:
                                     "types": poi_item.get("types"),
                                     "description": poi_item.get("description"),
                                     "price_level": poi_item.get("price_level"),
-                                    "google_maps_url": poi_item.get("google_maps_url")
+                                    "google_maps_url": poi_item.get("google_maps_url"),
+                                    "image_url": poi_item.get("image_url")
                                 }
                                 pois.append(PointOfInterest(**safe_poi_item))
                             except ValidationError as ve:
@@ -229,7 +232,8 @@ class SchedulerService:
                 "longitude": poi.longitude,
                 "cost": poi.cost,
                 "description": poi.description,
-                "google_maps_url": poi.google_maps_url
+                "google_maps_url": poi.google_maps_url,
+                "image_url": poi.image_url
             })
 
         # 2. Get Distance Matrix

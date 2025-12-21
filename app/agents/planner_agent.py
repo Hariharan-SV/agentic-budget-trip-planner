@@ -56,14 +56,14 @@ class PlannerAgent:
         if action_result["status"] == "failure":
             return {"status": "failure", "reason": action_result["reason"]}
         raw_pois = action_result["pois"]
-        print(f"DEBUG(planner_agent): Type of raw_pois from get_points_of_interest: {[type(p) for p in raw_pois[:min(5, len(raw_pois))]]}") # Debug log
+        # print(f"DEBUG(planner_agent): Type of raw_pois from get_points_of_interest: {[type(p) for p in raw_pois[:min(5, len(raw_pois))]]}") # Debug log
 
         if not raw_pois:
             return {"status": "failure", "reason": "No points of interest found for the given destination."}
         
         # Store the fetched POIs (which are PointOfInterest objects) directly
         self.available_pois = raw_pois
-        print(f"DEBUG(planner_agent): Type of self.available_pois after storing: {[type(p) for p in self.available_pois[:min(5, len(self.available_pois))]]}") # Debug log
+        # print(f"DEBUG(planner_agent): Type of self.available_pois after storing: {[type(p) for p in self.available_pois[:min(5, len(self.available_pois))]]}") # Debug log
 
         # Try to get destination coordinates. For simplicity, we can use the first POI's coords as a proxy
         # or a dedicated geocoding tool. For now, a placeholder.
@@ -90,7 +90,7 @@ class PlannerAgent:
 
         # Filter available POIs (which are PointOfInterest objects) to keep only the AI-selected ones
         self.available_pois = [poi for poi in self.available_pois if poi.place_id in selected_place_ids]
-        print(f"DEBUG(planner_agent): Type of self.available_pois after AI selection: {[type(p) for p in self.available_pois[:min(5, len(self.available_pois))]]}") # Debug log
+        # print(f"DEBUG(planner_agent): Type of self.available_pois after AI selection: {[type(p) for p in self.available_pois[:min(5, len(self.available_pois))]]}") # Debug log
 
         if not self.available_pois:
             return {"status": "failure", "reason": "AI could not select any suitable points of interest for the given trip type."}
@@ -110,7 +110,7 @@ class PlannerAgent:
 
         # Filter the available POIs (PointOfInterest objects) based on user's selection
         user_selected_pois = [poi for poi in self.available_pois if poi.place_id in selected_poi_place_ids]
-        print(f"DEBUG(planner_agent): Type of user_selected_pois: {[type(p) for p in user_selected_pois[:min(5, len(user_selected_pois))]]}") # Debug log
+        # print(f"DEBUG(planner_agent): Type of user_selected_pois: {[type(p) for p in user_selected_pois[:min(5, len(user_selected_pois))]]}") # Debug log
 
         if not user_selected_pois:
             return {"status": "failure", "reason": "No valid POIs selected by the user."}
@@ -125,8 +125,8 @@ class PlannerAgent:
         if cost_computation_result["status"] == "failure":
             return {"status": "failure", "reason": cost_computation_result["reason"]}
         costed_user_selected_pois = cost_computation_result["pois"]
-        print(f"Observation: Costs computed for {len(costed_user_selected_pois)} POIs.")
-        print(f"DEBUG(planner_agent): Type of costed_user_selected_pois: {[type(p) for p in costed_user_selected_pois[:min(5, len(costed_user_selected_pois))]]}") # Debug log
+        # print(f"Observation: Costs computed for {len(costed_user_selected_pois)} POIs.")
+        # print(f"DEBUG(planner_agent): Type of costed_user_selected_pois: {[type(p) for p in costed_user_selected_pois[:min(5, len(costed_user_selected_pois))]]}") # Debug log
 
         final_trip = None
         re_planning_attempts = 0
@@ -163,7 +163,7 @@ class PlannerAgent:
             
             # day_plans from schedule_day_wise_itinerary is already List[DayPlan] objects
             day_plans = schedule_result["day_plans"]
-            print(f"DEBUG(planner_agent): Type of day_plans from scheduler: {[type(dp) for dp in day_plans[:min(5, len(day_plans))]]}") # Debug log
+            # print(f"DEBUG(planner_agent): Type of day_plans from scheduler: {[type(dp) for dp in day_plans[:min(5, len(day_plans))]]}") # Debug log
             
             # Construct the current Trip object for budget check
             current_trip_for_check = Trip(
@@ -218,24 +218,24 @@ class PlannerAgent:
             for day_plan in final_trip.trip_plan:
                 all_pois_in_plan.extend(day_plan.points_of_interest)
             
-            print(f"DEBUG(planner_agent): Type of items in all_pois_in_plan before description tool: {[type(p) for p in all_pois_in_plan[:min(5, len(all_pois_in_plan))]]}") # Debug log
+            # print(f"DEBUG(planner_agent): Type of items in all_pois_in_plan before description tool: {[type(p) for p in all_pois_in_plan[:min(5, len(all_pois_in_plan))]]}") # Debug log
             description_result = self.tools["generate_poi_descriptions_tool"](
                 pois=all_pois_in_plan,
                 destination=final_trip.destination
             )
             if description_result["status"] == "success":
                 updated_pois_from_tool = description_result["pois"]
-                print(f"DEBUG(planner_agent): Type of items in updated_pois_from_tool (from desc tool): {[type(p) for p in updated_pois_from_tool[:min(5, len(updated_pois_from_tool))]]}") # Debug log
+                # print(f"DEBUG(planner_agent): Type of items in updated_pois_from_tool (from desc tool): {[type(p) for p in updated_pois_from_tool[:min(5, len(updated_pois_from_tool))]]}") # Debug log
                 updated_pois_map = {p.place_id: p for p in updated_pois_from_tool}
-                print(f"DEBUG(planner_agent): Type of values in updated_pois_map: {[type(v) for v in updated_pois_map.values()][:min(5, len(updated_pois_map))]}") # Debug log
+                # print(f"DEBUG(planner_agent): Type of values in updated_pois_map: {[type(v) for v in updated_pois_map.values()][:min(5, len(updated_pois_map))]}") # Debug log
                 
                 for day_plan in final_trip.trip_plan:
                     for i, poi in enumerate(day_plan.points_of_interest):
-                        print(f"DEBUG(planner_agent): Before update - Day {day_plan.day_number}, POI {poi.name}, Type: {type(poi)}") # Debug log
+                        # print(f"DEBUG(planner_agent): Before update - Day {day_plan.day_number}, POI {poi.name}, Type: {type(poi)}") # Debug log
                         if poi.place_id in updated_pois_map:
                             # Replace the old POI object with the updated one (including description)
                             day_plan.points_of_interest[i] = updated_pois_map[poi.place_id]
-                            print(f"DEBUG(planner_agent): After update - Day {day_plan.day_number}, POI {day_plan.points_of_interest[i].name}, Type: {type(day_plan.points_of_interest[i])}") # Debug log
+                            # print(f"DEBUG(planner_agent): After update - Day {day_plan.day_number}, POI {day_plan.points_of_interest[i].name}, Type: {type(day_plan.points_of_interest[i])}") # Debug log
 
         # Step 6: Suggest stays and restaurants
         thought = "Suggesting stays and restaurants in the destination."

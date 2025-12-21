@@ -72,7 +72,7 @@ def get_points_of_interest(destination: str) -> Dict[str, Any]:
             image_url=f"https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference={result['photos'][0]['photo_reference']}" if result.get('photos') else None,
             google_maps_url=google_maps_url # Populate google_maps_url
         )
-        print(f"DEBUG: POI created in get_points_of_interest: {poi.name}, Google Maps URL: {poi.google_maps_url}") # Added debug print
+        # print(f"DEBUG: POI created in get_points_of_interest: {poi.name}, Google Maps URL: {poi.google_maps_url}, image: {result.get('photos')}") # Added debug print
         
         unique_key = poi.place_id if poi.place_id else (poi.name, round(poi.latitude, 4), round(poi.longitude, 4))
         
@@ -160,7 +160,8 @@ def select_pois_by_trip_type(pois: List[PointOfInterest], trip_type: str, destin
             "types": poi.types,
             "rating": poi.rating,
             "price_level": poi.price_level,
-            "google_maps_url": poi.google_maps_url # Ensure google_maps_url is passed to AI
+            "google_maps_url": poi.google_maps_url, # Ensure google_maps_url is passed to AI
+            "image_url": poi.image_url # Ensure image_url is passed to AI
         })
     # print(f"DEBUG: POI data prepared for AI: {json.dumps(poi_data_for_ai, indent=2)}")
 
@@ -268,16 +269,16 @@ def generate_poi_descriptions_tool(pois: List[PointOfInterest], destination: str
             print(f"Warning: Unexpected type {type(poi_item)} encountered in generate_poi_descriptions_tool. Skipping POI.")
             continue
 
-        print(f"DEBUG(desc_tool): Processing POI of type: {type(poi)}, name: {getattr(poi, 'name', 'N/A')}")
+        # print(f"DEBUG(desc_tool): Processing POI of type: {type(poi)}, name: {getattr(poi, 'name', 'N/A')}")
         prompt = f"""
         Provide a brief, engaging description for {poi.name} in {destination}.
         Highlight why it's a significant or interesting place to visit.
         Keep it concise, under 50 words.
         """
         try:
-            print(f"Trying to generate description for {prompt}")
+            # print(f"Trying to generate description for {prompt}")
             response = model.generate_content(prompt)
-            print(f"received f{response}")
+            # print(f"received f{response}")
             if response and response.candidates:
                 poi.description = response.candidates[0].content.parts[0].text
             else:
@@ -287,6 +288,6 @@ def generate_poi_descriptions_tool(pois: List[PointOfInterest], destination: str
             poi.description = f"Could not generate description for {poi.name}."
         updated_pois.append(poi)
     
-    print(f"DEBUG(desc_tool): Final updated_pois list contains types: {[type(p) for p in updated_pois]}")
+    # print(f"DEBUG(desc_tool): Final updated_pois list contains types: {[type(p) for p in updated_pois]}")
     # CORRECTED: Return a list of PointOfInterest objects directly
     return {"status": "success", "pois": updated_pois}
