@@ -40,7 +40,7 @@ class TripRequest(BaseModel):
     per_person_budget: float
     days: int
     currency: Optional[str] = 'INR'
-    trip_type: Literal["family", "friends", "solo"] = "solo" # Added "solo"
+    trip_type: Literal["family", "friends", "solo", "couple"] = "solo" # Added "solo"
     headcount: int = 1
 
     @property

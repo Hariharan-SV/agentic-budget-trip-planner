@@ -12,7 +12,7 @@ class SchedulerService:
     def __init__(self):
         self.google_maps_api_key = os.environ.get("GEMINI_API_KEY") # Use GEMINI_API_KEY for Google Maps APIs
         self.gemini_api_key = os.environ.get("GEMINI_API_KEY")
-        print(f"DEBUG: GOOGLE_MAPS_API_KEY value in SchedulerService: {self.google_maps_api_key}") # Debug print
+        # print(f"DEBUG: GOOGLE_MAPS_API_KEY value in SchedulerService: {self.google_maps_api_key}") # Debug print
         if not self.google_maps_api_key:
             print("WARNING: GOOGLE_MAPS_API_KEY not set. Distance Matrix API will not work.")
         if not self.gemini_api_key:
